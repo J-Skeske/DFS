@@ -1,0 +1,10 @@
+Preprocessing library use-haskell-api-0.1.0.0...
+[2 of 3] Compiling UseHaskellAPI    ( src/UseHaskellAPI.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.1.0/build/UseHaskellAPI.o )
+
+src/UseHaskellAPI.hs:42:1: warning: [-Wtabs]
+    Tab character found here, and in four further locations.
+    Please use spaces instead.
+[3 of 3] Compiling UseHaskellAPIClient ( src/UseHaskellAPIClient.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.1.0/build/UseHaskellAPIClient.o )
+Installing library in
+/Users/jackskehan/coding/theONE/use-haskell/.stack-work/install/x86_64-osx/nightly-2016-12-10/8.0.1.20161117/lib/x86_64-osx-ghc-8.0.1.20161117/use-haskell-api-0.1.0.0-8vL4HG1ggTNFGkOjFgAfGB
+Registering use-haskell-api-0.1.0.0...

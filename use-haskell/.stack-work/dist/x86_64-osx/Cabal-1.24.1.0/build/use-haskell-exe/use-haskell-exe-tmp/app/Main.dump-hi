@@ -1,0 +1,218 @@
+
+==================== FINAL INTERFACE ====================
+2016-12-14 18:44:23.867666 UTC
+
+interface main@main:Main 800120161117
+  interface hash: cc21dc911e28d45df03eece795052e04
+  ABI hash: c192f933c2a9998c21f894cf2bb0f982
+  export-list hash: 7bae9159484cc81248a537aafc58610d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 26d8a6d9c5fa781526f2256026681abd
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: aeson-1.0.2.1@aeson-1.0.2.1-GfuLqlylFao3EnSDkWlKm
+                      appar-0.1.4@appar-0.1.4-DGWHHt2WRn9FI49prcwO9
+                      array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1@async-2.1.1-4n6HEMPJR2eJK0JpvCfuPK
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-IJTZfiKZUT1KNfuPY97vfC
+                      auto-update-0.1.4@auto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz
+                      base-4.9.1.0
+                      base-compat-0.9.1@base-compat-0.9.1-KPO0wrcls7g8nlFRpk0igo
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-CGB8BvrFgghHy5bLy0SFOg
+                      blaze-html-0.8.1.3@blaze-html-0.8.1.3-4x5sR7CihaZBuBa398ibiy
+                      blaze-markup-0.7.1.1@blaze-markup-0.7.1.1-7tIWNv8iALFJhJ4kVxNmNT
+                      bson-0.3.2.3@bson-0.3.2.3-L5sL1uiESnJ86O7qS0V9II
+                      bson-generic-0.0.8@bson-generic-0.0.8-BGsCJZorqgp2UlPd5ZZ8u8
+                      byteorder-1.0.4@byteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      case-insensitive-1.2.0.7@case-insensitive-1.2.0.7-I1ltE0BTdb3Isy5PokY6q3
+                      containers-0.5.7.1@containers-0.5.7.1
+                      cookie-0.4.2.1@cookie-0.4.2.1-K68NuFIZ07nEstxwB6c3aL
+                      cryptohash-0.11.9@cryptohash-0.11.9-IYIHTSM11REAWY9GZ8mBEy
+                      cryptonite-0.20@cryptonite-0.20-2mPQniW4gf169KfmeK944y
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      directory-1.2.6.2@directory-1.2.6.2-1HtonKNynKF5APO3FglOnV
+                      dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
+                      easy-file-0.2.1@easy-file-0.2.1-4zEUETiEffi55LP7yquXNC
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      fast-logger-2.4.7@fast-logger-2.4.7-HZqToLq7heVqeA5RN3Sqy
+                      file-embed-0.0.10@file-embed-0.0.10-Jj5HLKelxYvGLE4mdkt2Qs
+                      filepath-1.4.1.0@filepath-1.4.1.0-6l19P7yebrCHs34BhGuqDz
+                      ghc-boot-th-8.0.1.20161117@ghc-boot-th-8.0.1.20161117
+                      ghc-prim-0.5.0.0
+                      hashable-1.2.4.0@hashable-1.2.4.0-BwWHFlhAIB2IIZ8I8lJpMY
+                      hslogger-1.2.10@hslogger-1.2.10-7bs29ovrXAb1uY2t0N7hly
+                      http-api-data-0.3.3@http-api-data-0.3.3-FFDcUXaYLpKFohsuWJOHEn
+                      http-client-0.5.4@http-client-0.5.4-Ew7NzaTzuBFKkCPFhmG7iU
+                      http-date-0.0.6.1@http-date-0.0.6.1-EzWHTuNLHpW9OaqIGCjUwA
+                      http-media-0.6.4@http-media-0.6.4-1pYALpSVkDO80IXCUdgfYv
+                      http-types-0.9.1@http-types-0.9.1-HVfzlb08BVRGNzZVhxb460
+                      http2-1.6.2@http2-1.6.2-L47yDf5IgZiqV9CPfmZdL integer-gmp-1.0.0.1
+                      iproute-1.7.1@iproute-1.7.1-KcCUVTfBRL06JDGPzSoewq
+                      lifted-base-0.2.3.8@lifted-base-0.2.3.8-BoBWD07zNqLBf7CfbEUjUu
+                      memory-0.13@memory-0.13-EVXB8i3MrhFnMTaAW337h
+                      mime-types-0.1.0.7@mime-types-0.1.0.7-31dnC2ifQ9r5TApUZagLPk
+                      mmorph-1.0.9@mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+                      monad-control-1.0.1.0@monad-control-1.0.1.0-LQwQ0Hi5p0oAccTfTzbfD5
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      network-2.6.3.1@network-2.6.3.1-eBUbCRLoNdCcgLQkD2Je6
+                      network-uri-2.6.1.0@network-uri-2.6.1.0-EwGrJ9bdUqR1E7dAIJ4cwF
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      old-time-1.1.0.3@old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq
+                      parsec-3.1.11@parsec-3.1.11-113irVHGgd88sRnywByDNw
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH
+                      psqueues-0.2.2.3@psqueues-0.2.2.3-EzS65clRwBL1nA2UmZv3Ih
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      resourcet-1.1.8.1@resourcet-1.1.8.1-CIOPmYpWlg6JUdkilzmoM3
+                      safe-0.3.10@safe-0.3.10-2JDkZ3cOhkm66G5yxf9HAh
+                      scientific-0.3.4.9@scientific-0.3.4.9-L97YykcISDXLPkZnAK8kDp
+                      servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf
+                      servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN
+                      servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58
+                      simple-sendfile-0.2.25@simple-sendfile-0.2.25-CCIGIqha4Qj8kpvw3uLboI
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      streaming-commons-0.1.16@streaming-commons-0.1.16-A7tN0UOdNLVGPsdpoUijj2
+                      string-conversions-0.4@string-conversions-0.4-yO0KSto4bC9GNbfLeQcj4
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      unix-2.7.2.0@unix-2.7.2.0-6lNTB03KKAWD3td2onXjYn
+                      unix-compat-0.4.3.1@unix-compat-0.4.3.1-cys3dHbt6D1bsh4oMqlvr
+                      unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE
+                      unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-B5WkWtBRvdn7D9lHSwojKc
+                      uri-bytestring-0.2.2.1@uri-bytestring-0.2.2.1-HrBdPlwpUdMJAtjM4WzZWH
+                      use-haskell-0.1.0.0@use-haskell-0.1.0.0-F7dNwkeuN8BHaJ7CGjyfo9
+                      use-haskell-api-0.1.0.0@use-haskell-api-0.1.0.0-8vL4HG1ggTNFGkOjFgAfGB
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+                      uuid-types-1.0.3@uuid-types-1.0.3-3UDj14qx53qB7mZoQOBBEU
+                      vault-0.3.0.6@vault-0.3.0.6-BESLi402zPU3c0rjCI56vD
+                      vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG
+                      wai-3.2.1.1@wai-3.2.1.1-EUcA6NceMsHLUX4qd9bYzz
+                      wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-CYJiHAKt7w61GlbBExDbqr
+                      wai-logger-2.3.0@wai-logger-2.3.0-JJKq4XglbGc5Dyl7ifsOKh
+                      warp-3.2.9@warp-3.2.9-KPaI61ABgsSJ5SseUN1DF2
+                      word8-0.1.2@word8-0.1.2-9WDPGCTpW7JJnsiAQavtd1
+                      zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-IJTZfiKZUT1KNfuPY97vfC:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-IJTZfiKZUT1KNfuPY97vfC:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bson-generic-0.0.8@bson-generic-0.0.8-BGsCJZorqgp2UlPd5ZZ8u8:Data.Bson.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.4.0@hashable-1.2.4.0-BwWHFlhAIB2IIZ8I8lJpMY:Data.Hashable.Generic
+         http-client-0.5.4@http-client-0.5.4-Ew7NzaTzuBFKkCPFhmG7iU:Network.HTTP.Client.Request
+         network-2.6.3.1@network-2.6.3.1-eBUbCRLoNdCcgLQkD2Je6:Network.Socket
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE:Data.UnixTime.Diff
+         use-haskell-api-0.1.0.0@use-haskell-api-0.1.0.0-8vL4HG1ggTNFGkOjFgAfGB:UseHaskellAPI
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-IJTZfiKZUT1KNfuPY97vfC:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         bson-generic-0.0.8@bson-generic-0.0.8-BGsCJZorqgp2UlPd5ZZ8u8:Data.Bson.Generic
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD:Data.DList
+                         ghc-boot-th-8.0.1.20161117@ghc-boot-th-8.0.1.20161117:GHC.LanguageExtensions.Type
+                         http-api-data-0.3.3@http-api-data-0.3.3-FFDcUXaYLpKFohsuWJOHEn:Web.Internal.FormUrlEncoded
+                         http-client-0.5.4@http-client-0.5.4-Ew7NzaTzuBFKkCPFhmG7iU:Network.HTTP.Client
+                         iproute-1.7.1@iproute-1.7.1-KcCUVTfBRL06JDGPzSoewq:Data.IP.Addr
+                         iproute-1.7.1@iproute-1.7.1-KcCUVTfBRL06JDGPzSoewq:Data.IP.Range
+                         monad-control-1.0.1.0@monad-control-1.0.1.0-LQwQ0Hi5p0oAccTfTzbfD5:Control.Monad.Trans.Control
+                         network-uri-2.6.1.0@network-uri-2.6.1.0-EwGrJ9bdUqR1E7dAIJ4cwF:Network.URI
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH:Control.Monad.Primitive
+                         resourcet-1.1.8.1@resourcet-1.1.8.1-CIOPmYpWlg6JUdkilzmoM3:Control.Monad.Trans.Resource.Internal
+                         servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.API.ContentTypes
+                         servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.API.IsSecure
+                         servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.API.Verbs
+                         servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.Utils.Links
+                         servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN:Servant.Client
+                         servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN:Servant.Common.BaseUrl
+                         servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN:Servant.Common.Req
+                         servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58:Servant.Server.Internal
+                         servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58:Servant.Server.Internal.BasicAuth
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-B5WkWtBRvdn7D9lHSwojKc:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-B5WkWtBRvdn7D9lHSwojKc:Data.HashSet
+                         uri-bytestring-0.2.2.1@uri-bytestring-0.2.2.1-HrBdPlwpUdMJAtjM4WzZWH:URI.ByteString.Types
+                         use-haskell-0.1.0.0@use-haskell-0.1.0.0-F7dNwkeuN8BHaJ7CGjyfo9:RestClient
+                         use-haskell-api-0.1.0.0@use-haskell-api-0.1.0.0-8vL4HG1ggTNFGkOjFgAfGB:UseHaskellAPI
+                         uuid-types-1.0.3@uuid-types-1.0.3-3UDj14qx53qB7mZoQOBBEU:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-3UDj14qx53qB7mZoQOBBEU:Data.UUID.Types.Internal.Builder
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  use-haskell-0.1.0.0@use-haskell-0.1.0.0-F7dNwkeuN8BHaJ7CGjyfo9:Lib f73849c4682e5a9123894badc004cd18
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+9963e08c802f74d2ecf414a76883ad9e
+  main :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Lib.startApp1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+27d030e3cb5101f1d9bbf25803f14fea
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Lib.startApp1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

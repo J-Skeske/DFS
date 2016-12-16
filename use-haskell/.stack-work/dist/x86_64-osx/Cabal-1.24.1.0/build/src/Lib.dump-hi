@@ -1,0 +1,2665 @@
+
+==================== FINAL INTERFACE ====================
+2016-12-14 18:44:22.792836 UTC
+
+interface use-haskell-0.1.0.0-F7dNwkeuN8BHaJ7CGjyfo9:Lib 800120161117
+  interface hash: 5482b77aac20269da5e0f257f5527f23
+  ABI hash: f73849c4682e5a9123894badc004cd18
+  export-list hash: 01667595eebdf0b81f90146d3e750e58
+  orphan hash: ec42e0ddea8f8d0b93addd94b5a1981c
+  flag hash: 19e6466cbe74ecf7b6f11f3b51444b29
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.startApp
+module dependencies: RestClient
+package dependencies: aeson-1.0.2.1@aeson-1.0.2.1-GfuLqlylFao3EnSDkWlKm
+                      appar-0.1.4@appar-0.1.4-DGWHHt2WRn9FI49prcwO9
+                      array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1@async-2.1.1-4n6HEMPJR2eJK0JpvCfuPK
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-IJTZfiKZUT1KNfuPY97vfC
+                      auto-update-0.1.4@auto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz
+                      base-4.9.1.0
+                      base-compat-0.9.1@base-compat-0.9.1-KPO0wrcls7g8nlFRpk0igo
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-CGB8BvrFgghHy5bLy0SFOg
+                      blaze-html-0.8.1.3@blaze-html-0.8.1.3-4x5sR7CihaZBuBa398ibiy
+                      blaze-markup-0.7.1.1@blaze-markup-0.7.1.1-7tIWNv8iALFJhJ4kVxNmNT
+                      bson-0.3.2.3@bson-0.3.2.3-L5sL1uiESnJ86O7qS0V9II
+                      bson-generic-0.0.8@bson-generic-0.0.8-BGsCJZorqgp2UlPd5ZZ8u8
+                      byteorder-1.0.4@byteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      case-insensitive-1.2.0.7@case-insensitive-1.2.0.7-I1ltE0BTdb3Isy5PokY6q3
+                      containers-0.5.7.1@containers-0.5.7.1
+                      cookie-0.4.2.1@cookie-0.4.2.1-K68NuFIZ07nEstxwB6c3aL
+                      cryptohash-0.11.9@cryptohash-0.11.9-IYIHTSM11REAWY9GZ8mBEy
+                      cryptonite-0.20@cryptonite-0.20-2mPQniW4gf169KfmeK944y
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      directory-1.2.6.2@directory-1.2.6.2-1HtonKNynKF5APO3FglOnV
+                      dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
+                      easy-file-0.2.1@easy-file-0.2.1-4zEUETiEffi55LP7yquXNC
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      fast-logger-2.4.7@fast-logger-2.4.7-HZqToLq7heVqeA5RN3Sqy
+                      file-embed-0.0.10@file-embed-0.0.10-Jj5HLKelxYvGLE4mdkt2Qs
+                      filepath-1.4.1.0@filepath-1.4.1.0-6l19P7yebrCHs34BhGuqDz
+                      ghc-boot-th-8.0.1.20161117@ghc-boot-th-8.0.1.20161117
+                      ghc-prim-0.5.0.0
+                      hashable-1.2.4.0@hashable-1.2.4.0-BwWHFlhAIB2IIZ8I8lJpMY
+                      hslogger-1.2.10@hslogger-1.2.10-7bs29ovrXAb1uY2t0N7hly
+                      http-api-data-0.3.3@http-api-data-0.3.3-FFDcUXaYLpKFohsuWJOHEn
+                      http-client-0.5.4@http-client-0.5.4-Ew7NzaTzuBFKkCPFhmG7iU
+                      http-date-0.0.6.1@http-date-0.0.6.1-EzWHTuNLHpW9OaqIGCjUwA
+                      http-media-0.6.4@http-media-0.6.4-1pYALpSVkDO80IXCUdgfYv
+                      http-types-0.9.1@http-types-0.9.1-HVfzlb08BVRGNzZVhxb460
+                      http2-1.6.2@http2-1.6.2-L47yDf5IgZiqV9CPfmZdL integer-gmp-1.0.0.1
+                      iproute-1.7.1@iproute-1.7.1-KcCUVTfBRL06JDGPzSoewq
+                      lifted-base-0.2.3.8@lifted-base-0.2.3.8-BoBWD07zNqLBf7CfbEUjUu
+                      memory-0.13@memory-0.13-EVXB8i3MrhFnMTaAW337h
+                      mime-types-0.1.0.7@mime-types-0.1.0.7-31dnC2ifQ9r5TApUZagLPk
+                      mmorph-1.0.9@mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+                      monad-control-1.0.1.0@monad-control-1.0.1.0-LQwQ0Hi5p0oAccTfTzbfD5
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      network-2.6.3.1@network-2.6.3.1-eBUbCRLoNdCcgLQkD2Je6
+                      network-uri-2.6.1.0@network-uri-2.6.1.0-EwGrJ9bdUqR1E7dAIJ4cwF
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      old-time-1.1.0.3@old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq
+                      parsec-3.1.11@parsec-3.1.11-113irVHGgd88sRnywByDNw
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH
+                      psqueues-0.2.2.3@psqueues-0.2.2.3-EzS65clRwBL1nA2UmZv3Ih
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      resourcet-1.1.8.1@resourcet-1.1.8.1-CIOPmYpWlg6JUdkilzmoM3
+                      safe-0.3.10@safe-0.3.10-2JDkZ3cOhkm66G5yxf9HAh
+                      scientific-0.3.4.9@scientific-0.3.4.9-L97YykcISDXLPkZnAK8kDp
+                      servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf
+                      servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN
+                      servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58
+                      simple-sendfile-0.2.25@simple-sendfile-0.2.25-CCIGIqha4Qj8kpvw3uLboI
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      streaming-commons-0.1.16@streaming-commons-0.1.16-A7tN0UOdNLVGPsdpoUijj2
+                      string-conversions-0.4@string-conversions-0.4-yO0KSto4bC9GNbfLeQcj4
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      unix-2.7.2.0@unix-2.7.2.0-6lNTB03KKAWD3td2onXjYn
+                      unix-compat-0.4.3.1@unix-compat-0.4.3.1-cys3dHbt6D1bsh4oMqlvr
+                      unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE
+                      unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-B5WkWtBRvdn7D9lHSwojKc
+                      uri-bytestring-0.2.2.1@uri-bytestring-0.2.2.1-HrBdPlwpUdMJAtjM4WzZWH
+                      use-haskell-api-0.1.0.0@use-haskell-api-0.1.0.0-8vL4HG1ggTNFGkOjFgAfGB
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+                      uuid-types-1.0.3@uuid-types-1.0.3-3UDj14qx53qB7mZoQOBBEU
+                      vault-0.3.0.6@vault-0.3.0.6-BESLi402zPU3c0rjCI56vD
+                      vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG
+                      wai-3.2.1.1@wai-3.2.1.1-EUcA6NceMsHLUX4qd9bYzz
+                      wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-CYJiHAKt7w61GlbBExDbqr
+                      wai-logger-2.3.0@wai-logger-2.3.0-JJKq4XglbGc5Dyl7ifsOKh
+                      warp-3.2.9@warp-3.2.9-KPaI61ABgsSJ5SseUN1DF2
+                      word8-0.1.2@word8-0.1.2-9WDPGCTpW7JJnsiAQavtd1
+                      zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-IJTZfiKZUT1KNfuPY97vfC:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-IJTZfiKZUT1KNfuPY97vfC:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bson-generic-0.0.8@bson-generic-0.0.8-BGsCJZorqgp2UlPd5ZZ8u8:Data.Bson.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.4.0@hashable-1.2.4.0-BwWHFlhAIB2IIZ8I8lJpMY:Data.Hashable.Generic
+         http-client-0.5.4@http-client-0.5.4-Ew7NzaTzuBFKkCPFhmG7iU:Network.HTTP.Client.Request
+         network-2.6.3.1@network-2.6.3.1-eBUbCRLoNdCcgLQkD2Je6:Network.Socket
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE:Data.UnixTime.Diff
+         use-haskell-api-0.1.0.0@use-haskell-api-0.1.0.0-8vL4HG1ggTNFGkOjFgAfGB:UseHaskellAPI
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-IJTZfiKZUT1KNfuPY97vfC:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         bson-generic-0.0.8@bson-generic-0.0.8-BGsCJZorqgp2UlPd5ZZ8u8:Data.Bson.Generic
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD:Data.DList
+                         ghc-boot-th-8.0.1.20161117@ghc-boot-th-8.0.1.20161117:GHC.LanguageExtensions.Type
+                         http-api-data-0.3.3@http-api-data-0.3.3-FFDcUXaYLpKFohsuWJOHEn:Web.Internal.FormUrlEncoded
+                         http-client-0.5.4@http-client-0.5.4-Ew7NzaTzuBFKkCPFhmG7iU:Network.HTTP.Client
+                         iproute-1.7.1@iproute-1.7.1-KcCUVTfBRL06JDGPzSoewq:Data.IP.Addr
+                         iproute-1.7.1@iproute-1.7.1-KcCUVTfBRL06JDGPzSoewq:Data.IP.Range
+                         monad-control-1.0.1.0@monad-control-1.0.1.0-LQwQ0Hi5p0oAccTfTzbfD5:Control.Monad.Trans.Control
+                         network-uri-2.6.1.0@network-uri-2.6.1.0-EwGrJ9bdUqR1E7dAIJ4cwF:Network.URI
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH:Control.Monad.Primitive
+                         resourcet-1.1.8.1@resourcet-1.1.8.1-CIOPmYpWlg6JUdkilzmoM3:Control.Monad.Trans.Resource.Internal
+                         servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.API.ContentTypes
+                         servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.API.IsSecure
+                         servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.API.Verbs
+                         servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.Utils.Links
+                         servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN:Servant.Client
+                         servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN:Servant.Common.BaseUrl
+                         servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN:Servant.Common.Req
+                         servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58:Servant.Server.Internal
+                         servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58:Servant.Server.Internal.BasicAuth
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-B5WkWtBRvdn7D9lHSwojKc:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-B5WkWtBRvdn7D9lHSwojKc:Data.HashSet
+                         uri-bytestring-0.2.2.1@uri-bytestring-0.2.2.1-HrBdPlwpUdMJAtjM4WzZWH:URI.ByteString.Types
+                         use-haskell-0.1.0.0-F7dNwkeuN8BHaJ7CGjyfo9:RestClient
+                         use-haskell-api-0.1.0.0@use-haskell-api-0.1.0.0-8vL4HG1ggTNFGkOjFgAfGB:UseHaskellAPI
+                         uuid-types-1.0.3@uuid-types-1.0.3-3UDj14qx53qB7mZoQOBBEU:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-3UDj14qx53qB7mZoQOBBEU:Data.UUID.Types.Internal.Builder
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
+import  -/  aeson-1.0.2.1@aeson-1.0.2.1-GfuLqlylFao3EnSDkWlKm:Data.Aeson 6b2793890320cb248c8230c1436dc263
+import  -/  aeson-1.0.2.1@aeson-1.0.2.1-GfuLqlylFao3EnSDkWlKm:Data.Aeson.TH 5d61d9f21f5aba11ccf4bdbf5663b548
+import  -/  base-4.9.1.0:Control.Concurrent 2ee6a0a58489520b9a96d8fef10380fa
+import  -/  base-4.9.1.0:Control.Monad a6784c5dab0d75c63dabec5a37843f98
+import  -/  base-4.9.1.0:Control.Monad.IO.Class 1a4384f66ee999caf5366398edb6ca7b
+import  -/  base-4.9.1.0:Data.Either 20b09ef8d0a5b74fdec011c40c1587f5
+import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:Data.Maybe d876c4ffe4b3c43755a781e8ad860d88
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
+import  -/  base-4.9.1.0:Data.Proxy d7f87a37cf7ec5ca87c59c8d2859031f
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Conc.IO def2d34849634fa07308965605821da6
+import  -/  base-4.9.1.0:GHC.Conc.Sync 8d0a228e5fc4d8c110495066f4d52ea1
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.IO eb504c57b397cf133849f8586f15dafb
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.Environment 08cb808e8e6a7821e6f8cfa76a977431
+import  -/  base-4.9.1.0:System.IO e35a230d0e21f5f4d36862fb3b070caf
+import  -/  bson-generic-0.0.8@bson-generic-0.0.8-BGsCJZorqgp2UlPd5ZZ8u8:Data.Bson.Generic e31008f5d8a7cf3d8aa39a6fa91a5aac
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Lazy 507bdc85914c7475fbd60bdb4f8b740a
+import  -/  directory-1.2.6.2@directory-1.2.6.2-1HtonKNynKF5APO3FglOnV:System.Directory 0082e381d81ef564b0daac1fa09c2ed4
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hslogger-1.2.10@hslogger-1.2.10-7bs29ovrXAb1uY2t0N7hly:System.Log 0a036dbb53ef573cce937ecc133d7556
+import  -/  hslogger-1.2.10@hslogger-1.2.10-7bs29ovrXAb1uY2t0N7hly:System.Log.Formatter 34ced0552be278700842cca864e4f8a4
+import  -/  hslogger-1.2.10@hslogger-1.2.10-7bs29ovrXAb1uY2t0N7hly:System.Log.Handler bc28c1cbba02573dfcc53c7ebe27dafb
+import  -/  hslogger-1.2.10@hslogger-1.2.10-7bs29ovrXAb1uY2t0N7hly:System.Log.Handler.Simple 7e0f311bbdca89e63223b6c491e4c5eb
+import  -/  hslogger-1.2.10@hslogger-1.2.10-7bs29ovrXAb1uY2t0N7hly:System.Log.Handler.Syslog ee47e2c72fba0a04d835439475f1a5f9
+import  -/  hslogger-1.2.10@hslogger-1.2.10-7bs29ovrXAb1uY2t0N7hly:System.Log.Logger 69de6438eef82ed1a7266eac711d04f9
+import  -/  http-client-0.5.4@http-client-0.5.4-Ew7NzaTzuBFKkCPFhmG7iU:Network.HTTP.Client da98229a3e661d6d3fdd081c228244de
+import  -/  http-client-0.5.4@http-client-0.5.4-Ew7NzaTzuBFKkCPFhmG7iU:Network.HTTP.Client.Manager 3b5560767d8a74b346c78a3db10f3d89
+import  -/  resourcet-1.1.8.1@resourcet-1.1.8.1-CIOPmYpWlg6JUdkilzmoM3:Control.Monad.Trans.Resource d44e3b1cee667b05d59bc1e75a384062
+import  -/  servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.API 8ad55e30346a4bfb58903e0fee955286
+import  -/  servant-0.9.1.1@servant-0.9.1.1-5tegzBqFyXpHupdJeTBSXf:Servant.API.Alternative d8e98ec1ce8cc15b057856b3329ad97e
+import  -/  servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN:Servant.Client 32cfafc8d588838ce71c4ad4274808d0
+import  -/  servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN:Servant.Common.BaseUrl 950d0d9c93ef3ffd05f74a55f8394628
+import  -/  servant-client-0.9.1.1@servant-client-0.9.1.1-87TAIQnK0Em3YuuBk86WbN:Servant.Common.Req a1e9f27cedcfd84ed4870eadf9d8dab8
+import  -/  servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58:Servant 85476ff137a08d7c99861807a62f5e27
+import  -/  servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58:Servant.Server d83a0f2d61be923e867b65ee898620a0
+import  -/  servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58:Servant.Server.Internal 13c3db5944f1cc01a1c35c4cfe183e5b
+import  -/  servant-server-0.9.1.1@servant-server-0.9.1.1-AdMUanfuAztLVD10H2LX58:Servant.Server.Internal.ServantErr ae36c86b23d744347ac390316f069414
+import  -/  text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text 74d2e27a47a6c0a5519f61d8641aebe2
+import  -/  text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show 638b4149d86790151d6d4eeca215be94
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock 39d72b44f7e695ddde7bdf0c872a0f48
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.POSIX 8ddfbea084d836163f5a73c10feaf8a0
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.UTC b2c9431db436eefd7c8d4016130675a8
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Format ea41908bca0ab86c0253804fdeabf75e
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Locale e262e9136e2f788f80b03dbd9d679500
+import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Except 507341075c7fbb4263a7e8b082a3fa6c
+import  -/  RestClient 4fa08144e149affe0ff9cab715250cda
+  exports: 25da1f6e15fb8e85632e46dcfd0cb1d0
+  getPackages d0e2762747b89c15e848e5664629617e
+  packageName 8c7bb0fe611bd8614fce31c30413936a
+import  -/  use-haskell-api-0.1.0.0@use-haskell-api-0.1.0.0-8vL4HG1ggTNFGkOjFgAfGB:UseHaskellAPI 1085692c6872138da3007133ebc1a8be
+import  -/  wai-3.2.1.1@wai-3.2.1.1-EUcA6NceMsHLUX4qd9bYzz:Network.Wai de73ea9a13b4b08b1bdefde45b7b0452
+import  -/  wai-logger-2.3.0@wai-logger-2.3.0-JJKq4XglbGc5Dyl7ifsOKh:Network.Wai.Logger 86975f1b0eab91c4327f3f7ff13bac42
+import  -/  warp-3.2.9@warp-3.2.9-KPaI61ABgsSJ5SseUN1DF2:Network.Wai.Handler.Warp fb743b75ca824fd9202480a45242dff8
+import  -/  warp-3.2.9@warp-3.2.9-KPaI61ABgsSJ5SseUN1DF2:Network.Wai.Handler.Warp.Run de860e6cf5db74efbb4a1bc860c5d201
+import  -/  warp-3.2.9@warp-3.2.9-KPaI61ABgsSJ5SseUN1DF2:Network.Wai.Handler.Warp.Settings ba6f81ca047f9d9e7860309562115e22
+fc586536a36f4a7f8e54e75834d30859
+  $s$fAllCTRender:a ::
+    Servant.API.ContentTypes.AllCTRender
+      '[Servant.API.ContentTypes.JSON] UseHaskellAPI.ResponseData
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ UseHaskellAPI.ResponseData
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$cp1AllCTRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ UseHaskellAPI.ResponseData
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON_$ccontentType
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:Accept[0]
+                               <*>_N <Servant.API.ContentTypes.JSON>_N))
+                     Servant.API.ContentTypes.$fAllMimeUnrender[]a_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Lib.$s$fAllCTRender:a1)
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$chandleAcceptH
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ UseHaskellAPI.ResponseData
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON_$ccontentType
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:Accept[0]
+                               <*>_N <Servant.API.ContentTypes.JSON>_N))
+                     Servant.API.ContentTypes.$fAllMimeUnrender[]a_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Lib.$s$fAllCTRender:a1) -}
+3042180dc21697d542cfb66f1cdf7d00
+  $s$fAllCTRender:a1 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] UseHaskellAPI.ResponseData
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$s$fAllCTRender:a_$s$fAllMimeRender:a0 -}
+30f3ebc7b87c5f7ced55ad85e2fad5d9
+  $s$fAllCTRender:a2 ::
+    Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON]
+    -> UseHaskellAPI.ResponseData
+    -> [(Network.HTTP.Media.MediaType.Internal.MediaType,
+         Data.ByteString.Lazy.Internal.ByteString)]
+  {- Arity: 2, Strictness: <L,A><L,1*U(1*U)>m2,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON])
+                   (eta1 :: UseHaskellAPI.ResponseData) ->
+                 GHC.Types.:
+                   @ (Network.HTTP.Media.MediaType.Internal.MediaType,
+                      Data.ByteString.Lazy.Internal.ByteString)
+                   (Servant.API.ContentTypes.$fAcceptTYPEJSON1,
+                    Lib.$s$fAllCTRender:a_$sencode eta1)
+                   (GHC.Types.[]
+                      @ (Network.HTTP.Media.MediaType.Internal.MediaType,
+                         Data.ByteString.Lazy.Internal.ByteString))) -}
+73c455f6cfd68068d05b769670227448
+  $s$fAllCTRender:a3 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON UseHaskellAPI.ResponseData
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa -}
+b8f1d8dfcefba64c599537f83e86d58a
+  $s$fAllCTRender:a4 ::
+    Servant.API.ContentTypes.AllCTRender
+      '[Servant.API.ContentTypes.JSON] UseHaskellAPI.Message
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ UseHaskellAPI.Message
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$cp1AllCTRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ UseHaskellAPI.Message
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON_$ccontentType
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:Accept[0]
+                               <*>_N <Servant.API.ContentTypes.JSON>_N))
+                     Servant.API.ContentTypes.$fAllMimeUnrender[]a_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Lib.$s$fAllCTRender:a_$dAllMimeRender)
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$chandleAcceptH
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ UseHaskellAPI.Message
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON_$ccontentType
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:Accept[0]
+                               <*>_N <Servant.API.ContentTypes.JSON>_N))
+                     Servant.API.ContentTypes.$fAllMimeUnrender[]a_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Lib.$s$fAllCTRender:a_$dAllMimeRender) -}
+bdcf52edab5b02097fbde332fb8c1447
+  $s$fAllCTRender:a5 ::
+    Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON]
+    -> UseHaskellAPI.Message
+    -> [(Network.HTTP.Media.MediaType.Internal.MediaType,
+         Data.ByteString.Lazy.Internal.ByteString)]
+  {- Arity: 2, Strictness: <L,A><L,1*U(U,U)>m2,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON])
+                   (eta1 :: UseHaskellAPI.Message) ->
+                 GHC.Types.:
+                   @ (Network.HTTP.Media.MediaType.Internal.MediaType,
+                      Data.ByteString.Lazy.Internal.ByteString)
+                   (Servant.API.ContentTypes.$fAcceptTYPEJSON1,
+                    Lib.$s$fAllCTRender:a_$sencode1 eta1)
+                   (GHC.Types.[]
+                      @ (Network.HTTP.Media.MediaType.Internal.MediaType,
+                         Data.ByteString.Lazy.Internal.ByteString))) -}
+105ec159609d67ac1c953cd0c1874bcc
+  $s$fAllCTRender:a6 ::
+    Servant.API.ContentTypes.AllCTRender
+      '[Servant.API.ContentTypes.JSON] UseHaskellAPI.Filesp
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ UseHaskellAPI.Filesp
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$cp1AllCTRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ UseHaskellAPI.Filesp
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON_$ccontentType
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:Accept[0]
+                               <*>_N <Servant.API.ContentTypes.JSON>_N))
+                     Servant.API.ContentTypes.$fAllMimeUnrender[]a_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Lib.$s$fAllCTRender:a_$dAllMimeRender1)
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$chandleAcceptH
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ UseHaskellAPI.Filesp
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON_$ccontentType
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:Accept[0]
+                               <*>_N <Servant.API.ContentTypes.JSON>_N))
+                     Servant.API.ContentTypes.$fAllMimeUnrender[]a_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Lib.$s$fAllCTRender:a_$dAllMimeRender1) -}
+20ca5e0f234bef3a0cf30da8ca524adf
+  $s$fAllCTRender:a7 ::
+    Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON]
+    -> UseHaskellAPI.Filesp
+    -> [(Network.HTTP.Media.MediaType.Internal.MediaType,
+         Data.ByteString.Lazy.Internal.ByteString)]
+  {- Arity: 2, Strictness: <L,A><L,1*U(1*U)>m2,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON])
+                   (eta1 :: UseHaskellAPI.Filesp) ->
+                 GHC.Types.:
+                   @ (Network.HTTP.Media.MediaType.Internal.MediaType,
+                      Data.ByteString.Lazy.Internal.ByteString)
+                   (Servant.API.ContentTypes.$fAcceptTYPEJSON1,
+                    Lib.$s$fAllCTRender:a_$sencode2 eta1)
+                   (GHC.Types.[]
+                      @ (Network.HTTP.Media.MediaType.Internal.MediaType,
+                         Data.ByteString.Lazy.Internal.ByteString))) -}
+35fcc0efa84eedab465fc5b38d8f9f05
+  $s$fAllCTRender:a_$dAllMimeRender ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] UseHaskellAPI.Message
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$s$fAllCTRender:a_$s$fAllMimeRender:a1 -}
+aef1f543b62d63594b5b47aa9a02d8fc
+  $s$fAllCTRender:a_$dAllMimeRender1 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] UseHaskellAPI.Filesp
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$s$fAllCTRender:a_$s$fAllMimeRender:a2 -}
+78b9ac8ca667c50d9854e5017c644ee6
+  $s$fAllCTRender:a_$dMimeRender ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON UseHaskellAPI.Message
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa1 -}
+9b5a01e0885344dc98e949d293a882b8
+  $s$fAllCTRender:a_$dMimeRender1 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON UseHaskellAPI.Filesp
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa2 -}
+70d52b7bad7d53972f10a4f3fec37ffc
+  $s$fAllCTRender:a_$s$fAllMimeRender:a0 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] UseHaskellAPI.ResponseData
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ UseHaskellAPI.ResponseData
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$cp1AllMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ UseHaskellAPI.ResponseData
+                     Lib.$s$fAllCTRender:a3)
+                  Lib.$s$fAllCTRender:a2 -}
+bba787d16c371ad1b06de382ca7f77f1
+  $s$fAllCTRender:a_$s$fAllMimeRender:a1 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] UseHaskellAPI.Message
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ UseHaskellAPI.Message
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$cp1AllMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ UseHaskellAPI.Message
+                     Lib.$s$fAllCTRender:a_$dMimeRender)
+                  Lib.$s$fAllCTRender:a5 -}
+d81ef8dfe59fc761dcbe9891ee232e6b
+  $s$fAllCTRender:a_$s$fAllMimeRender:a2 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] UseHaskellAPI.Filesp
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ UseHaskellAPI.Filesp
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$cp1AllMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ UseHaskellAPI.Filesp
+                     Lib.$s$fAllCTRender:a_$dMimeRender1)
+                  Lib.$s$fAllCTRender:a7 -}
+071f86652003d689359cb34b7c858568
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON UseHaskellAPI.ResponseData
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ UseHaskellAPI.ResponseData
+                  (Servant.API.ContentTypes.$fMimeRenderTYPEJSONa_$cp1MimeRender
+                     @ UseHaskellAPI.ResponseData
+                     UseHaskellAPI.$fToJSONResponseData)
+                  Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender -}
+fab179b8e299c8ab2b57bf5df8fe5b31
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa1 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON UseHaskellAPI.Message
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ UseHaskellAPI.Message
+                  (Servant.API.ContentTypes.$fMimeRenderTYPEJSONa_$cp1MimeRender
+                     @ UseHaskellAPI.Message
+                     UseHaskellAPI.$fToJSONMessage)
+                  Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender1 -}
+553f63822661e55ab0a3f5bb4e77550c
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa2 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON UseHaskellAPI.Filesp
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ UseHaskellAPI.Filesp
+                  (Servant.API.ContentTypes.$fMimeRenderTYPEJSONa_$cp1MimeRender
+                     @ UseHaskellAPI.Filesp
+                     UseHaskellAPI.$fToJSONFilesp)
+                  Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender2 -}
+028e9f9fb5666394467c0acbe8efdb48
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> UseHaskellAPI.ResponseData
+    -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,A><L,1*U(1*U)>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: UseHaskellAPI.ResponseData) ->
+                 Lib.$s$fAllCTRender:a_$sencode eta) -}
+2b8631c4f45d69e10645dadecb7ebaaa
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender1 ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> UseHaskellAPI.Message
+    -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,A><L,1*U(U,U)>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: UseHaskellAPI.Message) ->
+                 Lib.$s$fAllCTRender:a_$sencode1 eta) -}
+8446f30a68373f56dd21975fe2d62063
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender2 ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> UseHaskellAPI.Filesp -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,A><L,1*U(1*U)>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: UseHaskellAPI.Filesp) ->
+                 Lib.$s$fAllCTRender:a_$sencode2 eta) -}
+270248e0415886f8c3c9c2317c84afbb
+  $s$fAllCTRender:a_$sencode ::
+    UseHaskellAPI.ResponseData
+    -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 1, Strictness: <L,1*U(1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: UseHaskellAPI.ResponseData) ->
+                 Data.ByteString.Builder.toLazyByteString
+                   (Data.Aeson.Encoding.Internal.value
+                      (UseHaskellAPI.$fToJSONResponseData_$ctoJSON eta))
+                     `cast`
+                   (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                        <Data.Aeson.Types.Internal.Value>_P)) -}
+9a8d15ec9cc5352dc4524159ff400cf6
+  $s$fAllCTRender:a_$sencode1 ::
+    UseHaskellAPI.Message -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 1, Strictness: <L,1*U(U,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: UseHaskellAPI.Message) ->
+                 Data.ByteString.Builder.toLazyByteString
+                   (Data.Aeson.Encoding.Internal.value
+                      (UseHaskellAPI.$fToJSONMessage_$ctoJSON eta))
+                     `cast`
+                   (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                        <Data.Aeson.Types.Internal.Value>_P)) -}
+28b42e8ec556a3a2b67e39cb85f36973
+  $s$fAllCTRender:a_$sencode2 ::
+    UseHaskellAPI.Filesp -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 1, Strictness: <L,1*U(1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: UseHaskellAPI.Filesp) ->
+                 Data.ByteString.Builder.toLazyByteString
+                   (Data.Aeson.Encoding.Internal.value
+                      (UseHaskellAPI.$fToJSONFilesp_$ctoJSON eta))
+                     `cast`
+                   (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                        <Data.Aeson.Types.Internal.Value>_P)) -}
+b156b7e70a0f8b16e9cfd51155531cb4
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Lib.$trModule2 Lib.$trModule1) -}
+c6c77baef961aa4b27f0785eaaa60278
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Lib"#) -}
+a7efcba98dc6a76c82ce210e410c6c81
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "use-haskell-0.1.0.0-F7dNwkeuN8BHaJ7CGjyfo9"#) -}
+e26d8d2cd29f870ba71300e3104bb5bc
+  $wlvl ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int# -> GHC.Prim.Int# -> GHC.Base.String
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><S,U><S,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#) ->
+                 let {
+                   end :: GHC.Prim.Int# = GHC.Prim.+# ww1 ww2
+                 } in
+                 letrec {
+                   $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                     {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                   = \ (ww3 :: GHC.Prim.Int#) ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww3 end) of wild1 {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexWord16Array# ww ww3 of r# { DEFAULT ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.geWord# r# 55296##) of wild2 {
+                            GHC.Types.False
+                            -> GHC.Types.:
+                                 @ GHC.Types.Char
+                                 (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                 ($wunfold (GHC.Prim.+# ww3 1#))
+                            GHC.Types.True
+                            -> case GHC.Prim.tagToEnum#
+                                      @ GHC.Types.Bool
+                                      (GHC.Prim.leWord# r# 56319##) of wild3 {
+                                 GHC.Types.False
+                                 -> GHC.Types.:
+                                      @ GHC.Types.Char
+                                      (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                      ($wunfold (GHC.Prim.+# ww3 1#))
+                                 GHC.Types.True
+                                 -> case GHC.Prim.indexWord16Array#
+                                           ww
+                                           (GHC.Prim.+# ww3 1#) of r#1 { DEFAULT ->
+                                    GHC.Types.:
+                                      @ GHC.Types.Char
+                                      (GHC.Types.C#
+                                         (GHC.Prim.chr#
+                                            (GHC.Prim.+#
+                                               (GHC.Prim.+#
+                                                  (GHC.Prim.uncheckedIShiftL#
+                                                     (GHC.Prim.-# (GHC.Prim.word2Int# r#) 55296#)
+                                                     10#)
+                                                  (GHC.Prim.-# (GHC.Prim.word2Int# r#1) 56320#))
+                                               65536#)))
+                                      ($wunfold (GHC.Prim.+# ww3 2#)) } } } }
+                       GHC.Types.True -> GHC.Types.[] @ GHC.Types.Char }
+                 } in
+                 $wunfold ww1) -}
+8b690c13aa1b4591c29e0fb980c4ecce
+  app :: Network.Wai.Application
+  {- Arity: 2,
+     Unfolding: (Servant.Server.Internal.RoutingApplication.toApplication
+                   Lib.startApp9) -}
+06db2ccad72e80cf6b0b40f004145518
+  directoryPath :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "/Users/jackskehan/coding/theONE/use-haskell/contents/"#) -}
+31c0b7ff5388e05f002036a64331fd93
+  startApp :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Lib.startApp1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+916fe7e1b808243253c79138fe3f99dd
+  startApp1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (Network.Wai.Logger.withStdoutLogger1
+                   @ ()
+                   Lib.startApp2
+                     `cast`
+                   (<Network.Wai.Logger.ApacheLogger>_R
+                    ->_R Sym (GHC.Types.N:IO[0] <()>_R))) -}
+d518227f940f76b4208f1fa3aa876f16
+  startApp10 ::
+    Servant.Server.Internal.Router.Router'
+      () Servant.Server.Internal.RoutingApplication.RoutingApplication
+  {- Unfolding: (Servant.Server.Internal.Router.choice
+                   @ ()
+                   @ Servant.Server.Internal.RoutingApplication.RoutingApplication
+                   Lib.startApp44
+                   Lib.startApp11) -}
+4d0741c285b943bbcc0a9aa962c81050
+  startApp11 ::
+    Servant.Server.Internal.Router.Router'
+      () Servant.Server.Internal.RoutingApplication.RoutingApplication
+  {- Unfolding: (Servant.Server.Internal.Router.choice
+                   @ ()
+                   @ Servant.Server.Internal.RoutingApplication.RoutingApplication
+                   Lib.startApp24
+                   Lib.startApp12) -}
+2544bfe08c493643bc565d5533e98911
+  startApp12 ::
+    Servant.Server.Internal.Router.Router'
+      () Servant.Server.Internal.RoutingApplication.RoutingApplication
+  {- Unfolding: (Servant.Server.Internal.Router.StaticRouter
+                   @ ()
+                   @ Servant.Server.Internal.RoutingApplication.RoutingApplication
+                   Lib.startApp13
+                   (GHC.Types.[]
+                      @ (()
+                         -> Servant.Server.Internal.RoutingApplication.RoutingApplication))) -}
+07380e732072cd44d39fade86659ae12
+  startApp13 ::
+    Data.Map.Base.Map
+      Data.Text.Internal.Text
+      (Servant.Server.Internal.Router.Router'
+         () Servant.Server.Internal.RoutingApplication.RoutingApplication)
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ Data.Text.Internal.Text
+                        Lib.startApp22 of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of dt { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
+                 Data.Map.Base.Bin
+                   @ Data.Text.Internal.Text
+                   @ (Servant.Server.Internal.Router.Router'
+                        () Servant.Server.Internal.RoutingApplication.RoutingApplication)
+                   1#
+                   dt
+                   Lib.startApp14
+                   (Data.Map.Base.Tip
+                      @ Data.Text.Internal.Text
+                      @ (Servant.Server.Internal.Router.Router'
+                           () Servant.Server.Internal.RoutingApplication.RoutingApplication))
+                   (Data.Map.Base.Tip
+                      @ Data.Text.Internal.Text
+                      @ (Servant.Server.Internal.Router.Router'
+                           ()
+                           Servant.Server.Internal.RoutingApplication.RoutingApplication)) } }) -}
+7fc1e28c01c2452381fcaf2815483d06
+  startApp14 :: Servant.Server.Internal.Router.Router ()
+  {- Unfolding: (Servant.Server.Internal.$w$croute6
+                   @ *
+                   @ "path"
+                   @ [GHC.Types.Char]
+                   @ (Servant.API.Verbs.Verb
+                        'Network.HTTP.Types.Method.GET
+                        200
+                        '[Servant.API.ContentTypes.JSON]
+                        UseHaskellAPI.Filesp)
+                   @ '[]
+                   Lib.startApp21
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"path">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"path">_N))
+                   Web.Internal.HttpApiData.$fFromHttpApiData[]
+                   Lib.startApp19
+                     `cast`
+                   (Sym (Servant.Server.Internal.N:HasServer[0]
+                             <*>_N
+                             <Servant.API.Verbs.Verb
+                                'Network.HTTP.Types.Method.GET
+                                200
+                                '[Servant.API.ContentTypes.JSON]
+                                UseHaskellAPI.Filesp>_N
+                             <'[]>_N))
+                   @ ()
+                   (Data.Proxy.Proxy
+                      @ *
+                      @ (Servant.API.QueryParam.QueryParam "path" [GHC.Types.Char]
+                         Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                              'Network.HTTP.Types.Method.GET
+                                              200
+                                              '[Servant.API.ContentTypes.JSON]
+                                              UseHaskellAPI.Filesp))
+                   Servant.Server.Internal.Context.$WEmptyContext
+                   Lib.startApp15
+                     `cast`
+                   (Servant.Server.Internal.RoutingApplication.Delayed
+                      <()>_R
+                      (Sub (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                <*>_N
+                                <Servant.API.QueryParam.QueryParam "path" GHC.IO.FilePath
+                                 Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                      '[Servant.API.ContentTypes.JSON]
+                                                      UseHaskellAPI.Filesp>_N
+                                <"directoryContents">_N
+                                <Control.Monad.Trans.Except.ExceptT
+                                   Servant.Server.Internal.ServantErr.ServantErr
+                                   GHC.Types.IO>_N)))_R) -}
+1e4b01ecfd20fab406205ac463baedca
+  startApp15 ::
+    Servant.Server.Internal.RoutingApplication.Delayed
+      ()
+      (Servant.Server.Internal.Server
+         ("directoryContents"
+          Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                "path" GHC.IO.FilePath
+                              Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   UseHaskellAPI.Filesp)))
+  {- Unfolding: (Servant.Server.Internal.RoutingApplication.Delayed
+                   @ ()
+                   @ (Servant.Server.Internal.Server
+                        ("directoryContents"
+                         Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                               "path" GHC.IO.FilePath
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.Filesp)))
+                   @ ()
+                   @ ()
+                   @ ()
+                   (Servant.Server.Internal.RoutingApplication.emptyDelayed2 @ ())
+                     `cast`
+                   (<()>_R
+                    ->_R Trans
+                             (<Network.Wai.Internal.Request>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <Servant.Server.Internal.RoutingApplication.RouteResult
+                                               ()>_R))
+                             (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                       <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Lib.startApp16) -}
+e8325cc9250b06215c1586b079b42e22
+  startApp16 ::
+    ()
+    -> ()
+    -> ()
+    -> Network.Wai.Internal.Request
+    -> Servant.Server.Internal.RoutingApplication.RouteResult
+         (Servant.Server.Internal.Server
+            ("directoryContents"
+             Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                   "path" GHC.IO.FilePath
+                                 Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                      '[Servant.API.ContentTypes.JSON]
+                                                      UseHaskellAPI.Filesp)))
+  {- Arity: 4,
+     Unfolding: (\ (c :: ())
+                   (a1 :: ())
+                   (b1 :: ())
+                   (req :: Network.Wai.Internal.Request) ->
+                 Lib.startApp17) -}
+fd7bd508de5a8594bd1b37efc530a68f
+  startApp17 ::
+    Servant.Server.Internal.RoutingApplication.RouteResult
+      (Servant.Server.Internal.Server
+         ("directoryContents"
+          Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                "path" GHC.IO.FilePath
+                              Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   UseHaskellAPI.Filesp)))
+  {- Unfolding: (Servant.Server.Internal.RoutingApplication.Route
+                   @ (Servant.Server.Internal.Server
+                        ("directoryContents"
+                         Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                               "path" GHC.IO.FilePath
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.Filesp)))
+                   Lib.startApp18
+                     `cast`
+                   (Trans
+                        (<GHC.Base.Maybe [GHC.Types.Char]>_R
+                         ->_R Trans
+                                  (Sym (GHC.Types.N:IO[0]
+                                            <Data.Either.Either
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               UseHaskellAPI.Filesp>_R))
+                                  (Trans
+                                       (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                                 <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                                 <GHC.Types.IO>_R
+                                                 <UseHaskellAPI.Filesp>_N))
+                                       (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPEVerbm0[0]
+                                                      <Network.HTTP.Types.Method.StdMethod>_N
+                                                      <UseHaskellAPI.Filesp>_N
+                                                      <'[Servant.API.ContentTypes.JSON]>_N
+                                                      <200>_N
+                                                      <'Network.HTTP.Types.Method.GET>_N
+                                                      <Control.Monad.Trans.Except.ExceptT
+                                                         Servant.Server.Internal.ServantErr.ServantErr
+                                                         GHC.Types.IO>_N)))))
+                        (Trans
+                             (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m8[0]
+                                            <*>_N
+                                            <[GHC.Types.Char]>_N
+                                            <"path">_N
+                                            <Servant.API.Verbs.Verb
+                                               'Network.HTTP.Types.Method.GET
+                                               200
+                                               '[Servant.API.ContentTypes.JSON]
+                                               UseHaskellAPI.Filesp>_N
+                                            <Control.Monad.Trans.Except.ExceptT
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               GHC.Types.IO>_N)))
+                             (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                            <*>_N
+                                            <Servant.API.QueryParam.QueryParam
+                                               "path" GHC.IO.FilePath
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.Filesp>_N
+                                            <"directoryContents">_N
+                                            <Control.Monad.Trans.Except.ExceptT
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               GHC.Types.IO>_N)))))) -}
+6cca73ae6977269445f2e2f131846b6a
+  startApp18 ::
+    GHC.Base.Maybe GHC.IO.FilePath
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr
+            UseHaskellAPI.Filesp #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (ds :: GHC.Base.Maybe GHC.IO.FilePath)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case ds of wild {
+                   GHC.Base.Nothing
+                   -> case System.Directory.getDirectoryContents1
+                             Lib.directoryPath
+                             eta of ds1 { (#,#) ipv ipv1 ->
+                      (# ipv,
+                         Data.Either.Right
+                           @ Servant.Server.Internal.ServantErr.ServantErr
+                           @ UseHaskellAPI.Filesp
+                           (UseHaskellAPI.Filesp ipv1) #) }
+                   GHC.Base.Just filePath
+                   -> case System.Directory.getDirectoryContents1
+                             (GHC.Base.++ @ GHC.Types.Char Lib.directoryPath filePath)
+                             eta of ds1 { (#,#) ipv ipv1 ->
+                      (# ipv,
+                         Data.Either.Right
+                           @ Servant.Server.Internal.ServantErr.ServantErr
+                           @ UseHaskellAPI.Filesp
+                           (UseHaskellAPI.Filesp ipv1) #) } }) -}
+989aa63ebcfcd5486caef4aab017d42f
+  startApp19 ::
+    Data.Proxy.Proxy
+      (Servant.API.Verbs.Verb
+         'Network.HTTP.Types.Method.GET
+         200
+         '[Servant.API.ContentTypes.JSON]
+         UseHaskellAPI.Filesp)
+    -> Servant.Server.Internal.Context.Context '[]
+    -> Servant.Server.Internal.RoutingApplication.Delayed
+         env
+         (Servant.Server.Internal.Server
+            (Servant.API.Verbs.Verb
+               'Network.HTTP.Types.Method.GET
+               200
+               '[Servant.API.ContentTypes.JSON]
+               UseHaskellAPI.Filesp))
+    -> Servant.Server.Internal.Router.Router env
+  {- Arity: 2,
+     Unfolding: (\ @ env
+                   (w3 :: Data.Proxy.Proxy
+                            (Servant.API.Verbs.Verb
+                               'Network.HTTP.Types.Method.GET
+                               200
+                               '[Servant.API.ContentTypes.JSON]
+                               UseHaskellAPI.Filesp))[OneShot]
+                   (w4 :: Servant.Server.Internal.Context.Context '[])[OneShot] ->
+                 case w3 of w5 { Data.Proxy.Proxy ->
+                 Servant.Server.Internal.$w$croute9
+                   @ Network.HTTP.Types.Method.StdMethod
+                   @ '[Servant.API.ContentTypes.JSON]
+                   @ UseHaskellAPI.Filesp
+                   @ 'Network.HTTP.Types.Method.GET
+                   @ 200
+                   @ '[]
+                   Lib.$s$fAllCTRender:a6
+                   Servant.API.Verbs.$fReflectMethodStdMethodGET_$creflectMethod
+                     `cast`
+                   (Sym (Servant.API.Verbs.N:ReflectMethod[0]
+                             <Network.HTTP.Types.Method.StdMethod>_N
+                             <'Network.HTTP.Types.Method.GET>_N))
+                   Lib.startApp20
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SNat[0] <200>_P))
+                        (Sym (GHC.TypeLits.N:KnownNat[0]) <200>_N))
+                   @ env
+                   (Data.Proxy.Proxy
+                      @ *
+                      @ (Servant.API.Verbs.Verb
+                           'Network.HTTP.Types.Method.GET
+                           200
+                           '[Servant.API.ContentTypes.JSON]
+                           UseHaskellAPI.Filesp)) }) -}
+fd08df042fc216d8d0035708866acf19
+  startApp2 ::
+    Network.Wai.Logger.ApacheLogger
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: (\ (aplogger :: Network.Wai.Logger.ApacheLogger)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case System.Environment.getProgName1 eta of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Encoding.getForeignEncoding1 of wild { (,) getForeignEncoding5 setForeignEncoding1 ->
+                 case getForeignEncoding5
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Base.Maybe GHC.Base.String)
+                        ipv3
+                        Lib.startApp_env
+                        System.Environment.getEnv4
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 let {
+                   $j :: GHC.Prim.State# GHC.Prim.RealWorld
+                         -> GHC.Base.String -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                     {- Arity: 2, Strictness: <S,U><L,U> -}
+                   = \ (ipv6 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot]
+                       (ipv7 :: GHC.Base.String)[OneShot] ->
+                     case System.Log.Logger.alertM4
+                            ipv1
+                            ipv6 of ds4 { (#,#) ipv8 ipv9 ->
+                     case System.Log.Logger.saveGlobalLogger1
+                            (case ipv9 of wild1 { System.Log.Logger.Logger ds ds5 ds6 ->
+                             System.Log.Logger.Logger
+                               (GHC.Base.Just
+                                  @ System.Log.Priority
+                                  (case GHC.Base.eqString ipv7 Lib.startApp78 of wild2 {
+                                     GHC.Types.False
+                                     -> case GHC.Base.eqString ipv7 Lib.startApp77 of wild3 {
+                                          GHC.Types.False -> System.Log.DEBUG
+                                          GHC.Types.True -> System.Log.WARNING }
+                                     GHC.Types.True -> System.Log.ERROR }))
+                               ds5
+                               ds6 })
+                            ipv8 of ds5 { (#,#) ipv10 ipv11 ->
+                     case Lib.startApp34
+                            @ ()
+                            System.Log.Logger.warningM1
+                              `cast`
+                            (<GHC.Base.String>_R
+                             ->_R <GHC.Base.String>_R
+                             ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                            Lib.startApp76
+                            ipv10 of ds6 { (#,#) ipv12 ipv13 ->
+                     case GHC.Prim.fork#
+                            @ (GHC.Types.IO ())
+                            Lib.startApp72 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))
+                            ipv12 of ds { (#,#) ipv14 ipv15 ->
+                     Network.Wai.Handler.Warp.Run.$wrunSettings
+                       Lib.startApp71
+                       Network.Wai.Handler.Warp.Settings.defaultSettings16
+                       Network.Wai.Handler.Warp.Settings.defaultOnException1
+                         `cast`
+                       (<GHC.Base.Maybe Network.Wai.Internal.Request>_R
+                        ->_R <GHC.Exception.SomeException>_R
+                        ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                       Network.Wai.Handler.Warp.Settings.defaultOnExceptionResponse
+                       Network.Wai.Handler.Warp.Settings.defaultSettings14
+                         `cast`
+                       (<Network.Socket.Types.SockAddr>_R
+                        ->_R Sym (GHC.Types.N:IO[0] <GHC.Types.Bool>_R))
+                       Network.Wai.Handler.Warp.Settings.defaultSettings13
+                         `cast`
+                       (<Network.Socket.Types.SockAddr>_R
+                        ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                       Network.Wai.Handler.Warp.Settings.defaultSettings12
+                       (GHC.Base.Nothing @ Network.Wai.Handler.Warp.Timeout.Manager)
+                       Network.Wai.Handler.Warp.Settings.defaultSettings11
+                       Network.Wai.Handler.Warp.Settings.defaultSettings11
+                       Network.Wai.Handler.Warp.Settings.defaultSettings9
+                         `cast`
+                       (Sym (GHC.Types.N:IO[0] <()>_R))
+                       Network.Wai.Handler.Warp.Settings.defaultSettings10
+                         `cast`
+                       (<(forall a. GHC.Types.IO a -> GHC.Types.IO a)
+                         -> GHC.Types.IO ()>_R
+                        ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                       GHC.Types.False
+                       Network.Wai.Handler.Warp.Settings.defaultSettings8
+                         `cast`
+                       (<GHC.Types.IO ()>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                       Network.Wai.Handler.Warp.Settings.defaultSettings6
+                       Network.Wai.Handler.Warp.Settings.defaultSettings4
+                       Network.Wai.Handler.Warp.Settings.ProxyProtocolNone
+                       Network.Wai.Handler.Warp.Settings.defaultSettings3
+                       GHC.Types.True
+                       aplogger
+                       Network.Wai.Handler.Warp.Settings.defaultSettings1
+                         `cast`
+                       (<Network.Wai.Internal.Request>_R
+                        ->_R <Data.ByteString.Internal.ByteString>_R
+                        ->_R <GHC.Integer.Type.Integer>_R
+                        ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                       (GHC.Base.Nothing @ GHC.Types.Int)
+                       Lib.app
+                       ipv14 } } } }
+                 } in
+                 case ipv5 of wild1 {
+                   GHC.Base.Nothing
+                   -> case Lib.startApp34
+                             @ ()
+                             System.Log.Logger.warningM1
+                               `cast`
+                             (<GHC.Base.String>_R
+                              ->_R <GHC.Base.String>_R
+                              ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                             Lib.startApp3
+                             ipv4 of ds4 { (#,#) ipv6 ipv7 ->
+                      $j ipv6 Lib.startApp_def }
+                   GHC.Base.Just s -> $j ipv4 s } } } } }) -}
+07d4bdb1a079db90495f589e6f792cb4
+  startApp20 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (200) -}
+2a260c3cdd1c74d346a6a12544deefeb
+  startApp21 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "path"#) -}
+df097d1d014670df9c5ed72c658989b3
+  startApp22 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        8#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Servant.Server.Internal.$wouter
+                   (Data.Text.Array.MArray @ GHC.Prim.RealWorld ipv1)
+                   Servant.Server.Internal.$fHasServerTYPE:>context20
+                   Lib.startApp23
+                   0#
+                   ipv }) -}
+f8907cbe5a408a96a33b52833dc769f9
+  startApp23 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "directoryContents"#) -}
+440136b3f2425dd997fad1fe9469370b
+  startApp24 ::
+    Servant.Server.Internal.Router.Router'
+      () Servant.Server.Internal.RoutingApplication.RoutingApplication
+  {- Unfolding: (Servant.Server.Internal.Router.StaticRouter
+                   @ ()
+                   @ Servant.Server.Internal.RoutingApplication.RoutingApplication
+                   Lib.startApp25
+                   (GHC.Types.[]
+                      @ (()
+                         -> Servant.Server.Internal.RoutingApplication.RoutingApplication))) -}
+dfc4962f3833b7f419a0adb602e564b5
+  startApp25 ::
+    Data.Map.Base.Map
+      Data.Text.Internal.Text
+      (Servant.Server.Internal.Router.Router'
+         () Servant.Server.Internal.RoutingApplication.RoutingApplication)
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ Data.Text.Internal.Text
+                        Lib.startApp42 of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of dt { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
+                 Data.Map.Base.Bin
+                   @ Data.Text.Internal.Text
+                   @ (Servant.Server.Internal.Router.Router'
+                        () Servant.Server.Internal.RoutingApplication.RoutingApplication)
+                   1#
+                   dt
+                   Lib.startApp26
+                   (Data.Map.Base.Tip
+                      @ Data.Text.Internal.Text
+                      @ (Servant.Server.Internal.Router.Router'
+                           () Servant.Server.Internal.RoutingApplication.RoutingApplication))
+                   (Data.Map.Base.Tip
+                      @ Data.Text.Internal.Text
+                      @ (Servant.Server.Internal.Router.Router'
+                           ()
+                           Servant.Server.Internal.RoutingApplication.RoutingApplication)) } }) -}
+ccaa5d9b7ebc71e1ef97bc2eb6268fd5
+  startApp26 :: Servant.Server.Internal.Router.Router ()
+  {- Unfolding: (Servant.Server.Internal.$w$croute6
+                   @ *
+                   @ "filter"
+                   @ [GHC.Types.Char]
+                   @ (Servant.API.Verbs.Verb
+                        'Network.HTTP.Types.Method.GET
+                        200
+                        '[Servant.API.ContentTypes.JSON]
+                        UseHaskellAPI.ResponseData)
+                   @ '[]
+                   Lib.startApp41
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"filter">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"filter">_N))
+                   Web.Internal.HttpApiData.$fFromHttpApiData[]
+                   Lib.startApp40
+                     `cast`
+                   (Sym (Servant.Server.Internal.N:HasServer[0]
+                             <*>_N
+                             <Servant.API.Verbs.Verb
+                                'Network.HTTP.Types.Method.GET
+                                200
+                                '[Servant.API.ContentTypes.JSON]
+                                UseHaskellAPI.ResponseData>_N
+                             <'[]>_N))
+                   @ ()
+                   (Data.Proxy.Proxy
+                      @ *
+                      @ (Servant.API.QueryParam.QueryParam "filter" [GHC.Types.Char]
+                         Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                              'Network.HTTP.Types.Method.GET
+                                              200
+                                              '[Servant.API.ContentTypes.JSON]
+                                              UseHaskellAPI.ResponseData))
+                   Servant.Server.Internal.Context.$WEmptyContext
+                   Lib.startApp27
+                     `cast`
+                   (Servant.Server.Internal.RoutingApplication.Delayed
+                      <()>_R
+                      (Sub (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                <*>_N
+                                <Servant.API.QueryParam.QueryParam "filter" GHC.Base.String
+                                 Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                      '[Servant.API.ContentTypes.JSON]
+                                                      UseHaskellAPI.ResponseData>_N
+                                <"performRESTCall">_N
+                                <Control.Monad.Trans.Except.ExceptT
+                                   Servant.Server.Internal.ServantErr.ServantErr
+                                   GHC.Types.IO>_N)))_R) -}
+96683fe72241aafe6f9d6c1df002ac44
+  startApp27 ::
+    Servant.Server.Internal.RoutingApplication.Delayed
+      ()
+      (Servant.Server.Internal.Server
+         ("performRESTCall"
+          Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                "filter" GHC.Base.String
+                              Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   UseHaskellAPI.ResponseData)))
+  {- Unfolding: (Servant.Server.Internal.RoutingApplication.Delayed
+                   @ ()
+                   @ (Servant.Server.Internal.Server
+                        ("performRESTCall"
+                         Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                               "filter" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.ResponseData)))
+                   @ ()
+                   @ ()
+                   @ ()
+                   (Servant.Server.Internal.RoutingApplication.emptyDelayed2 @ ())
+                     `cast`
+                   (<()>_R
+                    ->_R Trans
+                             (<Network.Wai.Internal.Request>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <Servant.Server.Internal.RoutingApplication.RouteResult
+                                               ()>_R))
+                             (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                       <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Lib.startApp28) -}
+fd722a53fa19323849bc69c6026118f8
+  startApp28 ::
+    ()
+    -> ()
+    -> ()
+    -> Network.Wai.Internal.Request
+    -> Servant.Server.Internal.RoutingApplication.RouteResult
+         (Servant.Server.Internal.Server
+            ("performRESTCall"
+             Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                   "filter" GHC.Base.String
+                                 Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                      '[Servant.API.ContentTypes.JSON]
+                                                      UseHaskellAPI.ResponseData)))
+  {- Arity: 4,
+     Unfolding: (\ (c :: ())
+                   (a1 :: ())
+                   (b1 :: ())
+                   (req :: Network.Wai.Internal.Request) ->
+                 Lib.startApp29) -}
+e64cdf63e430400049f3f0f4d94b5c98
+  startApp29 ::
+    Servant.Server.Internal.RoutingApplication.RouteResult
+      (Servant.Server.Internal.Server
+         ("performRESTCall"
+          Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                "filter" GHC.Base.String
+                              Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   UseHaskellAPI.ResponseData)))
+  {- Unfolding: (Servant.Server.Internal.RoutingApplication.Route
+                   @ (Servant.Server.Internal.Server
+                        ("performRESTCall"
+                         Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                               "filter" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.ResponseData)))
+                   Lib.startApp30
+                     `cast`
+                   (Trans
+                        (<GHC.Base.Maybe [GHC.Types.Char]>_R
+                         ->_R Trans
+                                  (Sym (GHC.Types.N:IO[0]
+                                            <Data.Either.Either
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               UseHaskellAPI.ResponseData>_R))
+                                  (Trans
+                                       (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                                 <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                                 <GHC.Types.IO>_R
+                                                 <UseHaskellAPI.ResponseData>_N))
+                                       (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPEVerbm0[0]
+                                                      <Network.HTTP.Types.Method.StdMethod>_N
+                                                      <UseHaskellAPI.ResponseData>_N
+                                                      <'[Servant.API.ContentTypes.JSON]>_N
+                                                      <200>_N
+                                                      <'Network.HTTP.Types.Method.GET>_N
+                                                      <Control.Monad.Trans.Except.ExceptT
+                                                         Servant.Server.Internal.ServantErr.ServantErr
+                                                         GHC.Types.IO>_N)))))
+                        (Trans
+                             (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m8[0]
+                                            <*>_N
+                                            <[GHC.Types.Char]>_N
+                                            <"filter">_N
+                                            <Servant.API.Verbs.Verb
+                                               'Network.HTTP.Types.Method.GET
+                                               200
+                                               '[Servant.API.ContentTypes.JSON]
+                                               UseHaskellAPI.ResponseData>_N
+                                            <Control.Monad.Trans.Except.ExceptT
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               GHC.Types.IO>_N)))
+                             (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                            <*>_N
+                                            <Servant.API.QueryParam.QueryParam
+                                               "filter" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.ResponseData>_N
+                                            <"performRESTCall">_N
+                                            <Control.Monad.Trans.Except.ExceptT
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               GHC.Types.IO>_N)))))) -}
+77e2f61ea8d1536acb65ece3a82d650c
+  startApp3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackAppendCString#
+                   "Environment variable: "#
+                   Lib.startApp4) -}
+30d69a356f80c79e8a3a70ae08ffdd4c
+  startApp30 ::
+    GHC.Base.Maybe GHC.Base.String
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr
+            UseHaskellAPI.ResponseData #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (ds :: GHC.Base.Maybe GHC.Base.String)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case ds of wild {
+                   GHC.Base.Nothing
+                   -> case Lib.startApp34
+                             @ ()
+                             System.Log.Logger.warningM1
+                               `cast`
+                             (<GHC.Base.String>_R
+                              ->_R <GHC.Base.String>_R
+                              ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                             Lib.startApp39
+                             eta of ds1 { (#,#) ipv ipv1 ->
+                      case Lib.startApp31
+                             (GHC.Base.id @ [GHC.Base.String])
+                             ipv of ds2 { (#,#) ipv2 ipv3 ->
+                      (# ipv2,
+                         Data.Either.Right
+                           @ Servant.Server.Internal.ServantErr.ServantErr
+                           @ UseHaskellAPI.ResponseData
+                           ipv3 #) } }
+                   GHC.Base.Just filt
+                   -> case Lib.startApp34
+                             @ ()
+                             System.Log.Logger.warningM1
+                               `cast`
+                             (<GHC.Base.String>_R
+                              ->_R <GHC.Base.String>_R
+                              ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                             (GHC.CString.unpackAppendCString#
+                                "recieved request to perform REST call with param "#
+                                filt)
+                             eta of ds1 { (#,#) ipv ipv1 ->
+                      case Lib.startApp31
+                             (GHC.List.filter
+                                @ [GHC.Types.Char]
+                                (Data.OldList.isInfixOf
+                                   @ GHC.Types.Char
+                                   GHC.Classes.$fEqChar
+                                   filt))
+                             ipv of ds2 { (#,#) ipv2 ipv3 ->
+                      (# ipv2,
+                         Data.Either.Right
+                           @ Servant.Server.Internal.ServantErr.ServantErr
+                           @ UseHaskellAPI.ResponseData
+                           ipv3 #) } } }) -}
+f30a3447fe99b500087d4b8a6e7d1bd5
+  startApp31 ::
+    ([GHC.Base.String] -> [GHC.Base.String])
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          UseHaskellAPI.ResponseData #)
+  {- Arity: 2, Strictness: <L,1*C1(U)><S,U>,
+     Unfolding: (\ (flt :: [GHC.Base.String] -> [GHC.Base.String])
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Network.HTTP.Client.Manager.$wnewManager
+                        Network.HTTP.Client.Manager.defaultManagerSettings16
+                        Network.HTTP.Client.Manager.defaultManagerSettings13
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0]
+                                  <GHC.Base.Maybe Network.Socket.Types.HostAddress
+                                   -> GHC.Base.String
+                                   -> GHC.Types.Int
+                                   -> GHC.Types.IO Network.HTTP.Client.Types.Connection>_R))
+                        Network.HTTP.Client.Manager.defaultManagerSettings12
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0]
+                                  <GHC.Base.Maybe Network.Socket.Types.HostAddress
+                                   -> GHC.Base.String
+                                   -> GHC.Types.Int
+                                   -> GHC.Types.IO Network.HTTP.Client.Types.Connection>_R))
+                        Network.HTTP.Client.Manager.defaultManagerSettings9
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0]
+                                  <Data.ByteString.Internal.ByteString
+                                   -> (Network.HTTP.Client.Types.Connection -> GHC.Types.IO ())
+                                   -> GHC.Base.String
+                                   -> GHC.Base.Maybe Network.Socket.Types.HostAddress
+                                   -> GHC.Base.String
+                                   -> GHC.Types.Int
+                                   -> GHC.Types.IO Network.HTTP.Client.Types.Connection>_R))
+                        Network.HTTP.Client.Types.ResponseTimeoutDefault
+                        Network.HTTP.Client.Manager.defaultManagerSettings8
+                        Network.HTTP.Client.Manager.defaultManagerSettings6
+                          `cast`
+                        (forall (a :: <*>_N).
+                         <Network.HTTP.Client.Types.Request>_R
+                         ->_R <GHC.Types.IO a>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <a>_R))
+                        Network.HTTP.Client.Manager.defaultManagerSettings5
+                        (GHC.Base.returnIO1 @ Network.HTTP.Client.Types.Request)
+                          `cast`
+                        (<Network.HTTP.Client.Types.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <Network.HTTP.Client.Types.Request>_R))
+                        Network.HTTP.Client.Manager.defaultManagerSettings1
+                          `cast`
+                        (Trans
+                             (<GHC.Types.Bool>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <Network.HTTP.Client.Types.Request
+                                             -> Network.HTTP.Client.Types.Request>_R))
+                             (Sym (Network.HTTP.Client.Types.N:ProxyOverride[0])))
+                        Network.HTTP.Client.Manager.defaultManagerSettings1
+                          `cast`
+                        (Trans
+                             (<GHC.Types.Bool>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <Network.HTTP.Client.Types.Request
+                                             -> Network.HTTP.Client.Types.Request>_R))
+                             (Sym (Network.HTTP.Client.Types.N:ProxyOverride[0])))
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case (RestClient.getPackages_eta1
+                         `cast`
+                       (Trans
+                            (Servant.Common.Req.N:ClientM[0] <([Network.HTTP.Types.Header.Header],
+                                                               [RestClient.Package])>_N)
+                            (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                 <*>_N
+                                 <Servant.Common.Req.ClientEnv>_R
+                                 <Control.Monad.Trans.Except.ExceptT
+                                    Servant.Common.Req.ServantError GHC.Types.IO>_R
+                                 <([Network.HTTP.Types.Header.Header], [RestClient.Package])>_N))
+                         (Servant.Common.Req.ClientEnv ipv1 Lib.startApp36))
+                        `cast`
+                      (Trans
+                           (Control.Monad.Trans.Except.N:ExceptT[0]
+                                <Servant.Common.Req.ServantError>_N
+                                <GHC.Types.IO>_R
+                                <([Network.HTTP.Types.Header.Header], [RestClient.Package])>_N)
+                           (GHC.Types.N:IO[0]
+                                <Data.Either.Either
+                                   Servant.Common.Req.ServantError
+                                   ([Network.HTTP.Types.Header.Header], [RestClient.Package])>_R))
+                        ipv of ds { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild {
+                   Data.Either.Left x
+                   -> case Lib.startApp34
+                             @ ()
+                             System.Log.Logger.warningM1
+                               `cast`
+                             (<GHC.Base.String>_R
+                              ->_R <GHC.Base.String>_R
+                              ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                             (GHC.CString.unpackAppendCString#
+                                "Rest call failed with error: "#
+                                (Servant.Common.Req.$w$cshowsPrec
+                                   0#
+                                   x
+                                   (GHC.Types.[] @ GHC.Types.Char)))
+                             ipv2 of ds2 { (#,#) ipv4 ipv5 ->
+                      (# ipv4,
+                         UseHaskellAPI.ResponseData
+                           (GHC.CString.unpackAppendCString#
+                              "Rest call failed with error: "#
+                              (Servant.Common.Req.$w$cshowsPrec
+                                 0#
+                                 x
+                                 (GHC.Types.[] @ GHC.Types.Char))) #) }
+                   Data.Either.Right y
+                   -> (# ipv2,
+                         UseHaskellAPI.ResponseData
+                           (case flt
+                                   (case y of wild1 { (,) ds2 y1 ->
+                                    GHC.Base.map
+                                      @ RestClient.Package
+                                      @ [GHC.Types.Char]
+                                      Lib.startApp33
+                                      y1 }) of wild1 {
+                              [] -> GHC.Types.[] @ GHC.Types.Char
+                              : x xs1
+                              -> Data.OldList.intercalate_$spoly_go
+                                   @ GHC.Types.Char
+                                   x
+                                   (Data.OldList.prependToAll
+                                      @ [GHC.Types.Char]
+                                      Lib.startApp32
+                                      xs1) }) #) } } }) -}
+9ccc0e73e1ae81db19555daea7e38b13
+  startApp32 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+920930fc40ac632a07702fbe2adfc0fe
+  startApp33 :: RestClient.Package -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S(LSS)),1*U(1*U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: RestClient.Package) ->
+                 case w of ww { RestClient.Package ww1 ->
+                 case ww1 of ww2 { Data.Text.Internal.Text ww3 ww4 ww5 ->
+                 Lib.$wlvl ww3 ww4 ww5 } }) -}
+d1478085ad9bcc6d38bbee6d75a670b3
+  startApp34 ::
+    (GHC.Base.String -> [GHC.Types.Char] -> GHC.Types.IO b)
+    -> [GHC.Types.Char]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, b #)
+  {- Arity: 3, Strictness: <L,1*C1(C1(C1(U(U,U))))><L,U><S,U>,
+     Unfolding: (\ @ b
+                   (f :: GHC.Base.String -> [GHC.Types.Char] -> GHC.Types.IO b)
+                   (s :: [GHC.Types.Char])
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case System.Environment.getProgName1 eta of ds1 { (#,#) ipv ipv1 ->
+                 case Data.Time.Clock.CTimespec.getCTimespec1
+                        ipv of ds { (#,#) ipv2 ipv3 ->
+                 (f ipv1
+                    (GHC.Base.++
+                       @ GHC.Types.Char
+                       (Data.Time.Format.formatTime
+                          @ Data.Time.Clock.UTC.UTCTime
+                          Data.Time.Format.$fFormatTimeUTCTime_$cformatCharacter
+                            `cast`
+                          (Sym (Data.Time.Format.N:FormatTime[0]
+                                    <Data.Time.Clock.UTC.UTCTime>_N))
+                          Data.Time.Format.Locale.defaultTimeLocale
+                          Lib.startApp35
+                          (case Data.Time.Clock.POSIX.$wposixSecondsToUTCTime
+                                  (Data.Time.Clock.POSIX.getCurrentTime2
+                                     ipv3) of ww { (#,#) ww1 ww2 ->
+                           Data.Time.Clock.UTC.UTCTime ww1 ww2 }))
+                       (GHC.CString.unpackAppendCString# " "# s)))
+                   `cast`
+                 (GHC.Types.N:IO[0] <b>_R)
+                   ipv2 } }) -}
+f83f389da0892d64743cbe24ac8ff200
+  startApp35 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "%FT%T%q%z"#) -}
+2eff3210cc7f7df1a5c69d2806c7b52f
+  startApp36 :: Servant.Common.BaseUrl.BaseUrl
+  {- Unfolding: (Servant.Common.BaseUrl.BaseUrl
+                   Servant.Common.BaseUrl.Http
+                   Lib.startApp38
+                   Lib.startApp37
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+89320af5927552a9887606bdb23bb9f4
+  startApp37 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 80#) -}
+44ad8baf16b55bdd5d3fd318f66127e1
+  startApp38 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "hackage.haskell.org"#) -}
+48d7e952c72da5507152392a12b709ad
+  startApp39 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "recieved request to perform REST call, but no param "#) -}
+87bbd59091f88e61cd469ad4eaf84ffa
+  startApp4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.Base.++
+                   @ GHC.Types.Char
+                   Lib.startApp_env
+                   Lib.startApp5) -}
+1161a873e9fcf14e836f78c5ee8354ac
+  startApp40 ::
+    Data.Proxy.Proxy
+      (Servant.API.Verbs.Verb
+         'Network.HTTP.Types.Method.GET
+         200
+         '[Servant.API.ContentTypes.JSON]
+         UseHaskellAPI.ResponseData)
+    -> Servant.Server.Internal.Context.Context '[]
+    -> Servant.Server.Internal.RoutingApplication.Delayed
+         env
+         (Servant.Server.Internal.Server
+            (Servant.API.Verbs.Verb
+               'Network.HTTP.Types.Method.GET
+               200
+               '[Servant.API.ContentTypes.JSON]
+               UseHaskellAPI.ResponseData))
+    -> Servant.Server.Internal.Router.Router env
+  {- Arity: 2, Strictness: <S,1*H><L,A>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ env
+                   (w3 :: Data.Proxy.Proxy
+                            (Servant.API.Verbs.Verb
+                               'Network.HTTP.Types.Method.GET
+                               200
+                               '[Servant.API.ContentTypes.JSON]
+                               UseHaskellAPI.ResponseData))
+                   (w4 :: Servant.Server.Internal.Context.Context '[]) ->
+                 case w3 of w5 { Data.Proxy.Proxy ->
+                 Servant.Server.Internal.$w$croute9
+                   @ Network.HTTP.Types.Method.StdMethod
+                   @ '[Servant.API.ContentTypes.JSON]
+                   @ UseHaskellAPI.ResponseData
+                   @ 'Network.HTTP.Types.Method.GET
+                   @ 200
+                   @ '[]
+                   Lib.$s$fAllCTRender:a
+                   Servant.API.Verbs.$fReflectMethodStdMethodGET_$creflectMethod
+                     `cast`
+                   (Sym (Servant.API.Verbs.N:ReflectMethod[0]
+                             <Network.HTTP.Types.Method.StdMethod>_N
+                             <'Network.HTTP.Types.Method.GET>_N))
+                   Lib.startApp20
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SNat[0] <200>_P))
+                        (Sym (GHC.TypeLits.N:KnownNat[0]) <200>_N))
+                   @ env
+                   (Data.Proxy.Proxy
+                      @ *
+                      @ (Servant.API.Verbs.Verb
+                           'Network.HTTP.Types.Method.GET
+                           200
+                           '[Servant.API.ContentTypes.JSON]
+                           UseHaskellAPI.ResponseData)) }) -}
+4ee0a372176df650e9c8b7f04228c550
+  startApp41 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "filter"#) -}
+2dfd3bd44e8f3e01ab7506fb6cc8ec4f
+  startApp42 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        8#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Servant.Server.Internal.$wouter
+                   (Data.Text.Array.MArray @ GHC.Prim.RealWorld ipv1)
+                   Servant.Server.Internal.$fHasServerTYPE:>context20
+                   Lib.startApp43
+                   0#
+                   ipv }) -}
+ef09d713f4af9a32991252433dbd05ab
+  startApp43 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "performRESTCall"#) -}
+210072c830e8ce4401e5a365bebcb19c
+  startApp44 ::
+    Servant.Server.Internal.Router.Router'
+      () Servant.Server.Internal.RoutingApplication.RoutingApplication
+  {- Unfolding: (Servant.Server.Internal.Router.StaticRouter
+                   @ ()
+                   @ Servant.Server.Internal.RoutingApplication.RoutingApplication
+                   Lib.startApp45
+                   (GHC.Types.[]
+                      @ (()
+                         -> Servant.Server.Internal.RoutingApplication.RoutingApplication))) -}
+f54cc6d42c79caa21dd60891f3cd8e42
+  startApp45 ::
+    Data.Map.Base.Map
+      Data.Text.Internal.Text
+      (Servant.Server.Internal.Router.Router'
+         () Servant.Server.Internal.RoutingApplication.RoutingApplication)
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ Data.Text.Internal.Text
+                        Lib.startApp54 of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of dt { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
+                 Data.Map.Base.Bin
+                   @ Data.Text.Internal.Text
+                   @ (Servant.Server.Internal.Router.Router'
+                        () Servant.Server.Internal.RoutingApplication.RoutingApplication)
+                   1#
+                   dt
+                   Lib.startApp46
+                   (Data.Map.Base.Tip
+                      @ Data.Text.Internal.Text
+                      @ (Servant.Server.Internal.Router.Router'
+                           () Servant.Server.Internal.RoutingApplication.RoutingApplication))
+                   (Data.Map.Base.Tip
+                      @ Data.Text.Internal.Text
+                      @ (Servant.Server.Internal.Router.Router'
+                           ()
+                           Servant.Server.Internal.RoutingApplication.RoutingApplication)) } }) -}
+c3a165241862622951126005c63c5a9e
+  startApp46 :: Servant.Server.Internal.Router.Router ()
+  {- Unfolding: (Servant.Server.Internal.$w$croute6
+                   @ *
+                   @ "file"
+                   @ [GHC.Types.Char]
+                   @ (Servant.API.Verbs.Verb
+                        'Network.HTTP.Types.Method.GET
+                        200
+                        '[Servant.API.ContentTypes.JSON]
+                        UseHaskellAPI.Message)
+                   @ '[]
+                   Lib.startApp53
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"file">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"file">_N))
+                   Web.Internal.HttpApiData.$fFromHttpApiData[]
+                   Lib.startApp52
+                     `cast`
+                   (Sym (Servant.Server.Internal.N:HasServer[0]
+                             <*>_N
+                             <Servant.API.Verbs.Verb
+                                'Network.HTTP.Types.Method.GET
+                                200
+                                '[Servant.API.ContentTypes.JSON]
+                                UseHaskellAPI.Message>_N
+                             <'[]>_N))
+                   @ ()
+                   (Data.Proxy.Proxy
+                      @ *
+                      @ (Servant.API.QueryParam.QueryParam "file" [GHC.Types.Char]
+                         Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                              'Network.HTTP.Types.Method.GET
+                                              200
+                                              '[Servant.API.ContentTypes.JSON]
+                                              UseHaskellAPI.Message))
+                   Servant.Server.Internal.Context.$WEmptyContext
+                   Lib.startApp47
+                     `cast`
+                   (Servant.Server.Internal.RoutingApplication.Delayed
+                      <()>_R
+                      (Sub (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                <*>_N
+                                <Servant.API.QueryParam.QueryParam "file" GHC.Base.String
+                                 Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                      '[Servant.API.ContentTypes.JSON]
+                                                      UseHaskellAPI.Message>_N
+                                <"getFILE">_N
+                                <Control.Monad.Trans.Except.ExceptT
+                                   Servant.Server.Internal.ServantErr.ServantErr
+                                   GHC.Types.IO>_N)))_R) -}
+efc2313b34eee7f142087636ec4fefa7
+  startApp47 ::
+    Servant.Server.Internal.RoutingApplication.Delayed
+      ()
+      (Servant.Server.Internal.Server
+         ("getFILE"
+          Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                "file" GHC.Base.String
+                              Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   UseHaskellAPI.Message)))
+  {- Unfolding: (Servant.Server.Internal.RoutingApplication.Delayed
+                   @ ()
+                   @ (Servant.Server.Internal.Server
+                        ("getFILE"
+                         Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                               "file" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.Message)))
+                   @ ()
+                   @ ()
+                   @ ()
+                   (Servant.Server.Internal.RoutingApplication.emptyDelayed2 @ ())
+                     `cast`
+                   (<()>_R
+                    ->_R Trans
+                             (<Network.Wai.Internal.Request>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <Servant.Server.Internal.RoutingApplication.RouteResult
+                                               ()>_R))
+                             (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                       <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Lib.startApp48) -}
+f57bbb7cbc0baf4178b25629faf8c777
+  startApp48 ::
+    ()
+    -> ()
+    -> ()
+    -> Network.Wai.Internal.Request
+    -> Servant.Server.Internal.RoutingApplication.RouteResult
+         (Servant.Server.Internal.Server
+            ("getFILE"
+             Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                   "file" GHC.Base.String
+                                 Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                      '[Servant.API.ContentTypes.JSON]
+                                                      UseHaskellAPI.Message)))
+  {- Arity: 4,
+     Unfolding: (\ (c :: ())
+                   (a1 :: ())
+                   (b1 :: ())
+                   (req :: Network.Wai.Internal.Request) ->
+                 Lib.startApp49) -}
+58dd80841d86a945e4080316adedf7c7
+  startApp49 ::
+    Servant.Server.Internal.RoutingApplication.RouteResult
+      (Servant.Server.Internal.Server
+         ("getFILE"
+          Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                "file" GHC.Base.String
+                              Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   UseHaskellAPI.Message)))
+  {- Unfolding: (Servant.Server.Internal.RoutingApplication.Route
+                   @ (Servant.Server.Internal.Server
+                        ("getFILE"
+                         Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                               "file" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.Message)))
+                   Lib.startApp50
+                     `cast`
+                   (Trans
+                        (<GHC.Base.Maybe [GHC.Types.Char]>_R
+                         ->_R Trans
+                                  (Sym (GHC.Types.N:IO[0]
+                                            <Data.Either.Either
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               UseHaskellAPI.Message>_R))
+                                  (Trans
+                                       (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                                 <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                                 <GHC.Types.IO>_R
+                                                 <UseHaskellAPI.Message>_N))
+                                       (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPEVerbm0[0]
+                                                      <Network.HTTP.Types.Method.StdMethod>_N
+                                                      <UseHaskellAPI.Message>_N
+                                                      <'[Servant.API.ContentTypes.JSON]>_N
+                                                      <200>_N
+                                                      <'Network.HTTP.Types.Method.GET>_N
+                                                      <Control.Monad.Trans.Except.ExceptT
+                                                         Servant.Server.Internal.ServantErr.ServantErr
+                                                         GHC.Types.IO>_N)))))
+                        (Trans
+                             (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m8[0]
+                                            <*>_N
+                                            <[GHC.Types.Char]>_N
+                                            <"file">_N
+                                            <Servant.API.Verbs.Verb
+                                               'Network.HTTP.Types.Method.GET
+                                               200
+                                               '[Servant.API.ContentTypes.JSON]
+                                               UseHaskellAPI.Message>_N
+                                            <Control.Monad.Trans.Except.ExceptT
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               GHC.Types.IO>_N)))
+                             (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                            <*>_N
+                                            <Servant.API.QueryParam.QueryParam
+                                               "file" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.Message>_N
+                                            <"getFILE">_N
+                                            <Control.Monad.Trans.Except.ExceptT
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               GHC.Types.IO>_N)))))) -}
+50ce25a1bbef77f87494a235bc40e4a4
+  startApp5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackAppendCString#
+                   " is not set. Defaulting to "#
+                   Lib.startApp6) -}
+8e7412eeb713c7bb3d5935612aed9732
+  startApp50 ::
+    GHC.Base.Maybe GHC.Base.String
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr
+            UseHaskellAPI.Message #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>,
+     Unfolding: (\ (ds :: GHC.Base.Maybe GHC.Base.String)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case ds of wild {
+                   GHC.Base.Nothing
+                   -> case Lib.startApp51
+                      ret_ty (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                Data.Either.Either
+                                  Servant.Server.Internal.ServantErr.ServantErr
+                                  UseHaskellAPI.Message #)
+                      of {}
+                   GHC.Base.Just fileName
+                   -> case GHC.IO.Handle.FD.openFile1
+                             (GHC.Base.++ @ GHC.Types.Char Lib.directoryPath fileName)
+                             GHC.IO.IOMode.ReadMode
+                             eta of ds1 { (#,#) ipv ipv1 ->
+                      case GHC.IO.Handle.Text.hGetContents1
+                             ipv1
+                             ipv of ds2 { (#,#) ipv2 ipv3 ->
+                      (# ipv2,
+                         Data.Either.Right
+                           @ Servant.Server.Internal.ServantErr.ServantErr
+                           @ UseHaskellAPI.Message
+                           (UseHaskellAPI.Message fileName ipv3) #) } } }) -}
+c8d90f94405339692ee1df9cde372ade
+  startApp51 ::
+    Servant.Server.Internal.ServantErr.Handler UseHaskellAPI.Message
+  {- Strictness: x -}
+ba74b7d3fef2381cea4b841159c54e6d
+  startApp52 ::
+    Data.Proxy.Proxy
+      (Servant.API.Verbs.Verb
+         'Network.HTTP.Types.Method.GET
+         200
+         '[Servant.API.ContentTypes.JSON]
+         UseHaskellAPI.Message)
+    -> Servant.Server.Internal.Context.Context '[]
+    -> Servant.Server.Internal.RoutingApplication.Delayed
+         env
+         (Servant.Server.Internal.Server
+            (Servant.API.Verbs.Verb
+               'Network.HTTP.Types.Method.GET
+               200
+               '[Servant.API.ContentTypes.JSON]
+               UseHaskellAPI.Message))
+    -> Servant.Server.Internal.Router.Router env
+  {- Arity: 2,
+     Unfolding: (\ @ env
+                   (w3 :: Data.Proxy.Proxy
+                            (Servant.API.Verbs.Verb
+                               'Network.HTTP.Types.Method.GET
+                               200
+                               '[Servant.API.ContentTypes.JSON]
+                               UseHaskellAPI.Message))[OneShot]
+                   (w4 :: Servant.Server.Internal.Context.Context '[])[OneShot] ->
+                 case w3 of w5 { Data.Proxy.Proxy ->
+                 Servant.Server.Internal.$w$croute9
+                   @ Network.HTTP.Types.Method.StdMethod
+                   @ '[Servant.API.ContentTypes.JSON]
+                   @ UseHaskellAPI.Message
+                   @ 'Network.HTTP.Types.Method.GET
+                   @ 200
+                   @ '[]
+                   Lib.$s$fAllCTRender:a4
+                   Servant.API.Verbs.$fReflectMethodStdMethodGET_$creflectMethod
+                     `cast`
+                   (Sym (Servant.API.Verbs.N:ReflectMethod[0]
+                             <Network.HTTP.Types.Method.StdMethod>_N
+                             <'Network.HTTP.Types.Method.GET>_N))
+                   Lib.startApp20
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SNat[0] <200>_P))
+                        (Sym (GHC.TypeLits.N:KnownNat[0]) <200>_N))
+                   @ env
+                   (Data.Proxy.Proxy
+                      @ *
+                      @ (Servant.API.Verbs.Verb
+                           'Network.HTTP.Types.Method.GET
+                           200
+                           '[Servant.API.ContentTypes.JSON]
+                           UseHaskellAPI.Message)) }) -}
+7bb9aefe82b21dddeb5af1df0ba4e2e4
+  startApp53 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "file"#) -}
+a66d73b77a95510e7375234cd54972ea
+  startApp54 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        8#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Servant.Server.Internal.$wouter
+                   (Data.Text.Array.MArray @ GHC.Prim.RealWorld ipv1)
+                   Servant.Server.Internal.$fHasServerTYPE:>context20
+                   Lib.startApp55
+                   0#
+                   ipv }) -}
+4f272f89d6955f778c117f572d74129a
+  startApp55 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "getFILE"#) -}
+c6da45107874c4f626609b46b3271ef9
+  startApp56 ::
+    Servant.Server.Internal.Router.Router'
+      () Servant.Server.Internal.RoutingApplication.RoutingApplication
+  {- Unfolding: (Servant.Server.Internal.Router.StaticRouter
+                   @ ()
+                   @ Servant.Server.Internal.RoutingApplication.RoutingApplication
+                   Lib.startApp57
+                   (GHC.Types.[]
+                      @ (()
+                         -> Servant.Server.Internal.RoutingApplication.RoutingApplication))) -}
+dbfb02c10527939b1ae8c80b15e3b689
+  startApp57 ::
+    Data.Map.Base.Map
+      Data.Text.Internal.Text
+      (Servant.Server.Internal.Router.Router'
+         () Servant.Server.Internal.RoutingApplication.RoutingApplication)
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ Data.Text.Internal.Text
+                        Lib.startApp69 of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of dt { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
+                 Data.Map.Base.Bin
+                   @ Data.Text.Internal.Text
+                   @ (Servant.Server.Internal.Router.Router'
+                        () Servant.Server.Internal.RoutingApplication.RoutingApplication)
+                   1#
+                   dt
+                   Lib.startApp58
+                   (Data.Map.Base.Tip
+                      @ Data.Text.Internal.Text
+                      @ (Servant.Server.Internal.Router.Router'
+                           () Servant.Server.Internal.RoutingApplication.RoutingApplication))
+                   (Data.Map.Base.Tip
+                      @ Data.Text.Internal.Text
+                      @ (Servant.Server.Internal.Router.Router'
+                           ()
+                           Servant.Server.Internal.RoutingApplication.RoutingApplication)) } }) -}
+90283b313db881a280bc669a515cc31e
+  startApp58 :: Servant.Server.Internal.Router.Router ()
+  {- Unfolding: (Servant.Server.Internal.$w$croute6
+                   @ *
+                   @ "name"
+                   @ [GHC.Types.Char]
+                   @ (Servant.API.Verbs.Verb
+                        'Network.HTTP.Types.Method.GET
+                        200
+                        '[Servant.API.ContentTypes.JSON]
+                        UseHaskellAPI.ResponseData)
+                   @ '[]
+                   Lib.startApp68
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"name">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"name">_N))
+                   Web.Internal.HttpApiData.$fFromHttpApiData[]
+                   Lib.startApp40
+                     `cast`
+                   (Sym (Servant.Server.Internal.N:HasServer[0]
+                             <*>_N
+                             <Servant.API.Verbs.Verb
+                                'Network.HTTP.Types.Method.GET
+                                200
+                                '[Servant.API.ContentTypes.JSON]
+                                UseHaskellAPI.ResponseData>_N
+                             <'[]>_N))
+                   @ ()
+                   (Data.Proxy.Proxy
+                      @ *
+                      @ (Servant.API.QueryParam.QueryParam "name" [GHC.Types.Char]
+                         Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                              'Network.HTTP.Types.Method.GET
+                                              200
+                                              '[Servant.API.ContentTypes.JSON]
+                                              UseHaskellAPI.ResponseData))
+                   Servant.Server.Internal.Context.$WEmptyContext
+                   Lib.startApp59
+                     `cast`
+                   (Servant.Server.Internal.RoutingApplication.Delayed
+                      <()>_R
+                      (Sub (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                <*>_N
+                                <Servant.API.QueryParam.QueryParam "name" GHC.Base.String
+                                 Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                      '[Servant.API.ContentTypes.JSON]
+                                                      UseHaskellAPI.ResponseData>_N
+                                <"load_environment_variables">_N
+                                <Control.Monad.Trans.Except.ExceptT
+                                   Servant.Server.Internal.ServantErr.ServantErr
+                                   GHC.Types.IO>_N)))_R) -}
+63cea8db74fa4ab529e23fe950ac870e
+  startApp59 ::
+    Servant.Server.Internal.RoutingApplication.Delayed
+      ()
+      (Servant.Server.Internal.Server
+         ("load_environment_variables"
+          Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                "name" GHC.Base.String
+                              Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   UseHaskellAPI.ResponseData)))
+  {- Unfolding: (Servant.Server.Internal.RoutingApplication.Delayed
+                   @ ()
+                   @ (Servant.Server.Internal.Server
+                        ("load_environment_variables"
+                         Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                               "name" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.ResponseData)))
+                   @ ()
+                   @ ()
+                   @ ()
+                   (Servant.Server.Internal.RoutingApplication.emptyDelayed2 @ ())
+                     `cast`
+                   (<()>_R
+                    ->_R Trans
+                             (<Network.Wai.Internal.Request>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <Servant.Server.Internal.RoutingApplication.RouteResult
+                                               ()>_R))
+                             (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                       <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Servant.Server.Internal.RoutingApplication.emptyDelayed1
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Servant.Server.Internal.RoutingApplication.RouteResult
+                                          ()>_R))
+                        (Sym (Servant.Server.Internal.RoutingApplication.N:DelayedIO[0]
+                                  <()>_R)))
+                   Lib.startApp60) -}
+08612ab4052e394ad076e4a51874eb13
+  startApp6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Types.Char
+                   GHC.Show.shows6
+                   Lib.startApp7) -}
+5c027681ae07f6928c0f9e24b6e11d2a
+  startApp60 ::
+    ()
+    -> ()
+    -> ()
+    -> Network.Wai.Internal.Request
+    -> Servant.Server.Internal.RoutingApplication.RouteResult
+         (Servant.Server.Internal.Server
+            ("load_environment_variables"
+             Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                   "name" GHC.Base.String
+                                 Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                      '[Servant.API.ContentTypes.JSON]
+                                                      UseHaskellAPI.ResponseData)))
+  {- Arity: 4,
+     Unfolding: (\ (c :: ())
+                   (a1 :: ())
+                   (b1 :: ())
+                   (req :: Network.Wai.Internal.Request) ->
+                 Lib.startApp61) -}
+9177f630784aa25ccd2410424f0389cd
+  startApp61 ::
+    Servant.Server.Internal.RoutingApplication.RouteResult
+      (Servant.Server.Internal.Server
+         ("load_environment_variables"
+          Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                "name" GHC.Base.String
+                              Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   UseHaskellAPI.ResponseData)))
+  {- Unfolding: (Servant.Server.Internal.RoutingApplication.Route
+                   @ (Servant.Server.Internal.Server
+                        ("load_environment_variables"
+                         Servant.API.Sub.:> (Servant.API.QueryParam.QueryParam
+                                               "name" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.ResponseData)))
+                   Lib.startApp62
+                     `cast`
+                   (Trans
+                        (<GHC.Base.Maybe [GHC.Types.Char]>_R
+                         ->_R Trans
+                                  (Sym (GHC.Types.N:IO[0]
+                                            <Data.Either.Either
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               UseHaskellAPI.ResponseData>_R))
+                                  (Trans
+                                       (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                                 <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                                 <GHC.Types.IO>_R
+                                                 <UseHaskellAPI.ResponseData>_N))
+                                       (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPEVerbm0[0]
+                                                      <Network.HTTP.Types.Method.StdMethod>_N
+                                                      <UseHaskellAPI.ResponseData>_N
+                                                      <'[Servant.API.ContentTypes.JSON]>_N
+                                                      <200>_N
+                                                      <'Network.HTTP.Types.Method.GET>_N
+                                                      <Control.Monad.Trans.Except.ExceptT
+                                                         Servant.Server.Internal.ServantErr.ServantErr
+                                                         GHC.Types.IO>_N)))))
+                        (Trans
+                             (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m8[0]
+                                            <*>_N
+                                            <[GHC.Types.Char]>_N
+                                            <"name">_N
+                                            <Servant.API.Verbs.Verb
+                                               'Network.HTTP.Types.Method.GET
+                                               200
+                                               '[Servant.API.ContentTypes.JSON]
+                                               UseHaskellAPI.ResponseData>_N
+                                            <Control.Monad.Trans.Except.ExceptT
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               GHC.Types.IO>_N)))
+                             (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                            <*>_N
+                                            <Servant.API.QueryParam.QueryParam
+                                               "name" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  UseHaskellAPI.ResponseData>_N
+                                            <"load_environment_variables">_N
+                                            <Control.Monad.Trans.Except.ExceptT
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               GHC.Types.IO>_N)))))) -}
+81df67c64f621f88c8907ee615417e13
+  startApp62 ::
+    GHC.Base.Maybe GHC.Base.String
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr
+            UseHaskellAPI.ResponseData #)
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: (\ (ms :: GHC.Base.Maybe GHC.Base.String)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Lib.startApp34
+                        @ ()
+                        System.Log.Logger.warningM1
+                          `cast`
+                        (<GHC.Base.String>_R
+                         ->_R <GHC.Base.String>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                        (GHC.CString.unpackAppendCString#
+                           "request to load environment variable: "#
+                           (case ms of wild {
+                              GHC.Base.Nothing -> GHC.Show.$fShowMaybe3
+                              GHC.Base.Just b1
+                              -> GHC.Base.++
+                                   @ GHC.Types.Char
+                                   GHC.Show.$fShowMaybe1
+                                   (GHC.Types.:
+                                      @ GHC.Types.Char
+                                      GHC.Show.shows6
+                                      (GHC.Show.showLitString b1 Lib.startApp8)) }))
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ms of wild {
+                   GHC.Base.Nothing
+                   -> case Lib.startApp34
+                             @ ()
+                             System.Log.Logger.warningM1
+                               `cast`
+                             (<GHC.Base.String>_R
+                              ->_R <GHC.Base.String>_R
+                              ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                             Lib.startApp67
+                             ipv of ds2 { (#,#) ipv2 ipv3 ->
+                      (# ipv2, Lib.startApp64 #) }
+                   GHC.Base.Just s1
+                   -> case GHC.IO.Encoding.getForeignEncoding1 of wild1 { (,) getForeignEncoding5 setForeignEncoding1 ->
+                      case getForeignEncoding5
+                             `cast`
+                           (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                             ipv of ds2 { (#,#) ipv2 ipv3 ->
+                      case GHC.Foreign.charIsRepresentable3
+                             @ (GHC.Base.Maybe GHC.Base.String)
+                             ipv3
+                             s1
+                             System.Environment.getEnv4
+                               `cast`
+                             (<Foreign.C.String.CString>_R
+                              ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.Maybe GHC.Base.String>_R))
+                             ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                      case ipv5 of wild2 {
+                        GHC.Base.Nothing
+                        -> case Lib.startApp34
+                                  @ ()
+                                  System.Log.Logger.warningM1
+                                    `cast`
+                                  (<GHC.Base.String>_R
+                                   ->_R <GHC.Base.String>_R
+                                   ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                                  (GHC.CString.unpackAppendCString#
+                                     "Environment variable "#
+                                     (GHC.Base.++ @ GHC.Types.Char s1 Lib.startApp63))
+                                  ipv4 of ds4 { (#,#) ipv6 ipv7 ->
+                           (# ipv6,
+                              Data.Either.Right
+                                @ Servant.Server.Internal.ServantErr.ServantErr
+                                @ UseHaskellAPI.ResponseData
+                                (UseHaskellAPI.ResponseData
+                                   (GHC.CString.unpackAppendCString#
+                                      "Environment variable "#
+                                      (GHC.Base.++ @ GHC.Types.Char s1 Lib.startApp63))) #) }
+                        GHC.Base.Just e'
+                        -> (# ipv4,
+                              Data.Either.Right
+                                @ Servant.Server.Internal.ServantErr.ServantErr
+                                @ UseHaskellAPI.ResponseData
+                                (UseHaskellAPI.ResponseData e') #) } } } } } }) -}
+3796561143f2a0d161afb38fd1788f3d
+  startApp63 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# " is not set."#) -}
+bc7dfb53234a9004d5f7c5a5da78b403
+  startApp64 ::
+    Data.Either.Either
+      Servant.Server.Internal.ServantErr.ServantErr
+      UseHaskellAPI.ResponseData
+  {- Unfolding: (Data.Either.Right
+                   @ Servant.Server.Internal.ServantErr.ServantErr
+                   @ UseHaskellAPI.ResponseData
+                   Lib.startApp65) -}
+a70ac37d283c5a86d137d16ae9e37e4e
+  startApp65 :: UseHaskellAPI.ResponseData
+  {- Unfolding: (UseHaskellAPI.ResponseData Lib.startApp66) -}
+9501dd1989f0b356d03d3f300d0b6aa7
+  startApp66 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "WAT? No environment variable requested."#) -}
+7f4146e1e12eaced58d4d3f5b68305ce
+  startApp67 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "No environment variable requested"#) -}
+68e1d999fa45a708093bc403eb362520
+  startApp68 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "name"#) -}
+1bf0143e7f4564102daf898ab0c19611
+  startApp69 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        8#
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 Servant.Server.Internal.$wouter
+                   (Data.Text.Array.MArray @ GHC.Prim.RealWorld ipv1)
+                   Servant.Server.Internal.$fHasServerTYPE:>context20
+                   Lib.startApp70
+                   0#
+                   ipv }) -}
+059f785d2b76c38fb9b5ac3a4d667bc6
+  startApp7 :: GHC.Base.String
+  {- Unfolding: (GHC.Show.showLitString
+                   Lib.startApp_def
+                   Lib.startApp8) -}
+1dc04dd0f54bd7cd37693416172d0dc1
+  startApp70 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "load_environment_variables"#) -}
+8c4ef4c9551f21c58a70beb8c383cfc3
+  startApp71 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 8080#) -}
+fc7aa5c57c3b215229d180451ebaec44
+  startApp72 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (\ (eta :: GHC.Prim.State#
+                             GHC.Prim.RealWorld)[OneShot] ->
+                 GHC.Prim.catch#
+                   @ ()
+                   @ GHC.Exception.SomeException
+                   Lib.startApp73
+                   GHC.Conc.Sync.childHandler1
+                   eta) -}
+8e3e68a5c401bb52163a5e5ee5a6676a
+  startApp73 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Unfolding: (Lib.startApp75 Lib.startApp74) -}
+89087cf0782f82d00bb423c8591c0939
+  startApp74 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 5#) -}
+861dd6954b49b22beea5515c5ca62337
+  startApp75 ::
+    GHC.Types.Int
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,1*U(U)><S,U> -}
+fa3014612e4909d86d159165656e7360
+  startApp76 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Starting use-haskell."#) -}
+718bf084cce4164a95ef629960c9743c
+  startApp77 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "WARNING"#) -}
+b16fd231b64d3a32fcbbd40740896183
+  startApp78 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ERROR"#) -}
+925feec2777a7ba7e684ebfde7033da9
+  startApp8 :: [GHC.Types.Char]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Char
+                   GHC.Show.shows6
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+652b4bdcd6012a66196a112b9c24e101
+  startApp9 ::
+    Network.Wai.Internal.Request
+    -> (Servant.Server.Internal.RoutingApplication.RouteResult
+          Network.Wai.Internal.Response
+        -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+    -> GHC.Types.IO Network.Wai.Internal.ResponseReceived
+  {- Arity: 2,
+     Strictness: <L,U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Network.Wai.Internal.Request)
+                   (eta1 :: Servant.Server.Internal.RoutingApplication.RouteResult
+                              Network.Wai.Internal.Response
+                            -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)[OneShot] ->
+                 Servant.Server.Internal.Router.runRouterEnv
+                   @ ()
+                   Lib.startApp_r
+                   GHC.Tuple.()
+                   eta
+                   eta1) -}
+8c3e0f15726a89c00a9c4113604736e8
+  startApp_def :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "DEBUG"#) -}
+022a0d5ec28a92b19ac31cfbac411cd5
+  startApp_env :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "LOG_LEVEL"#) -}
+3a2d64fe489365ddffc2166dcbcf5f40
+  startApp_r :: Servant.Server.Internal.Router.Router ()
+  {- Unfolding: (Servant.Server.Internal.Router.choice
+                   @ ()
+                   @ Servant.Server.Internal.RoutingApplication.RoutingApplication
+                   Lib.startApp56
+                   Lib.startApp10) -}
+"SPEC/Lib $fAllCTRender:a @ JSON @ '[] @ Filesp" [ALWAYS] forall ($dAllMimeRender :: Servant.API.ContentTypes.AllMimeRender
+                                                                                       '[Servant.API.ContentTypes.JSON]
+                                                                                       UseHaskellAPI.Filesp)
+                                                                 ($dAllMime :: Servant.API.ContentTypes.AllMime
+                                                                                 '[])
+                                                                 ($dAccept :: Servant.API.ContentTypes.Accept
+                                                                                Servant.API.ContentTypes.JSON)
+  Servant.API.ContentTypes.$fAllCTRender:a @ Servant.API.ContentTypes.JSON
+                                           @ '[]
+                                           @ UseHaskellAPI.Filesp
+                                           $dAccept
+                                           $dAllMime
+                                           $dAllMimeRender
+  = Lib.$s$fAllCTRender:a6
+"SPEC/Lib $fAllCTRender:a @ JSON @ '[] @ Message" [ALWAYS] forall ($dAllMimeRender :: Servant.API.ContentTypes.AllMimeRender
+                                                                                        '[Servant.API.ContentTypes.JSON]
+                                                                                        UseHaskellAPI.Message)
+                                                                  ($dAllMime :: Servant.API.ContentTypes.AllMime
+                                                                                  '[])
+                                                                  ($dAccept :: Servant.API.ContentTypes.Accept
+                                                                                 Servant.API.ContentTypes.JSON)
+  Servant.API.ContentTypes.$fAllCTRender:a @ Servant.API.ContentTypes.JSON
+                                           @ '[]
+                                           @ UseHaskellAPI.Message
+                                           $dAccept
+                                           $dAllMime
+                                           $dAllMimeRender
+  = Lib.$s$fAllCTRender:a4
+"SPEC/Lib $fAllCTRender:a @ JSON @ '[] @ ResponseData" [ALWAYS] forall ($dAllMimeRender :: Servant.API.ContentTypes.AllMimeRender
+                                                                                             '[Servant.API.ContentTypes.JSON]
+                                                                                             UseHaskellAPI.ResponseData)
+                                                                       ($dAllMime :: Servant.API.ContentTypes.AllMime
+                                                                                       '[])
+                                                                       ($dAccept :: Servant.API.ContentTypes.Accept
+                                                                                      Servant.API.ContentTypes.JSON)
+  Servant.API.ContentTypes.$fAllCTRender:a @ Servant.API.ContentTypes.JSON
+                                           @ '[]
+                                           @ UseHaskellAPI.ResponseData
+                                           $dAccept
+                                           $dAllMime
+                                           $dAllMimeRender
+  = Lib.$s$fAllCTRender:a
+"SPEC/Lib $fAllMimeRender:a0 @ JSON @ Filesp" [ALWAYS] forall ($dMimeRender :: Servant.API.ContentTypes.MimeRender
+                                                                                 Servant.API.ContentTypes.JSON
+                                                                                 UseHaskellAPI.Filesp)
+  Servant.API.ContentTypes.$fAllMimeRender:a0 @ Servant.API.ContentTypes.JSON
+                                              @ UseHaskellAPI.Filesp
+                                              $dMimeRender
+  = Lib.$s$fAllCTRender:a_$s$fAllMimeRender:a2
+"SPEC/Lib $fAllMimeRender:a0 @ JSON @ Message" [ALWAYS] forall ($dMimeRender :: Servant.API.ContentTypes.MimeRender
+                                                                                  Servant.API.ContentTypes.JSON
+                                                                                  UseHaskellAPI.Message)
+  Servant.API.ContentTypes.$fAllMimeRender:a0 @ Servant.API.ContentTypes.JSON
+                                              @ UseHaskellAPI.Message
+                                              $dMimeRender
+  = Lib.$s$fAllCTRender:a_$s$fAllMimeRender:a1
+"SPEC/Lib $fAllMimeRender:a0 @ JSON @ ResponseData" [ALWAYS] forall ($dMimeRender :: Servant.API.ContentTypes.MimeRender
+                                                                                       Servant.API.ContentTypes.JSON
+                                                                                       UseHaskellAPI.ResponseData)
+  Servant.API.ContentTypes.$fAllMimeRender:a0 @ Servant.API.ContentTypes.JSON
+                                              @ UseHaskellAPI.ResponseData
+                                              $dMimeRender
+  = Lib.$s$fAllCTRender:a_$s$fAllMimeRender:a0
+"SPEC/Lib $fMimeRenderTYPEJSONa @ Filesp" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                         UseHaskellAPI.Filesp)
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa @ UseHaskellAPI.Filesp
+                                                 $dToJSON
+  = Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa2
+"SPEC/Lib $fMimeRenderTYPEJSONa @ Message" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                          UseHaskellAPI.Message)
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa @ UseHaskellAPI.Message
+                                                 $dToJSON
+  = Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa1
+"SPEC/Lib $fMimeRenderTYPEJSONa @ ResponseData" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                               UseHaskellAPI.ResponseData)
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa @ UseHaskellAPI.ResponseData
+                                                 $dToJSON
+  = Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa
+"SPEC/Lib $fMimeRenderTYPEJSONa_$cmimeRender @ Filesp" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                      UseHaskellAPI.Filesp)
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa_$cmimeRender @ UseHaskellAPI.Filesp
+                                                              $dToJSON
+  = Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender2
+"SPEC/Lib $fMimeRenderTYPEJSONa_$cmimeRender @ Message" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                       UseHaskellAPI.Message)
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa_$cmimeRender @ UseHaskellAPI.Message
+                                                              $dToJSON
+  = Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender1
+"SPEC/Lib $fMimeRenderTYPEJSONa_$cmimeRender @ ResponseData" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                            UseHaskellAPI.ResponseData)
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa_$cmimeRender @ UseHaskellAPI.ResponseData
+                                                              $dToJSON
+  = Lib.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender
+"SPEC/Lib encode @ Filesp" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                          UseHaskellAPI.Filesp)
+  Data.Aeson.encode @ UseHaskellAPI.Filesp $dToJSON
+  = Lib.$s$fAllCTRender:a_$sencode2
+"SPEC/Lib encode @ Message" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                           UseHaskellAPI.Message)
+  Data.Aeson.encode @ UseHaskellAPI.Message $dToJSON
+  = Lib.$s$fAllCTRender:a_$sencode1
+"SPEC/Lib encode @ ResponseData" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                UseHaskellAPI.ResponseData)
+  Data.Aeson.encode @ UseHaskellAPI.ResponseData $dToJSON
+  = Lib.$s$fAllCTRender:a_$sencode
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

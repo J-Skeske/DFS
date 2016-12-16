@@ -1,0 +1,9 @@
+Configuring http-api-data-0.2.2...
+Building http-api-data-0.2.2...
+Preprocessing library http-api-data-0.2.2...
+[1 of 2] Compiling Web.HttpApiData.Internal ( Web/HttpApiData/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Web/HttpApiData/Internal.o )
+
+Web/HttpApiData/Internal.hs:472:30: Warning:
+    In the use of ‘parseTime’
+    (imported from Data.Time, but defined in time-1.5.0.1:Data.Time.Format.Parse):
+    Deprecated: "use "parseTimeM True" instead"
